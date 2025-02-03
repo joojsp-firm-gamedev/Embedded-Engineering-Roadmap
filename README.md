@@ -1,1241 +1,1243 @@
-# Embedded Systems Engineering Roadmap
+# Roteiro de Engenharia de Sistemas Embarcados
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/stargazers)
+[![Repositório GitHub estrelas](https://img.shields.io/github/stars/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/forks)
-[![GitHub watchers](https://img.shields.io/github/watchers/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/watchers)
-[![GitHub contributors](https://img.shields.io/github/contributors/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/graphs/contributors)
-[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/m3y54m/Embedded-Engineering-Roadmap?style=plastic&label=latest)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
-[![GitHub release (by tag)](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/latest/total?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
-[![GitHub all releases](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/total?style=plastic&label=total%20downloads)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases)
+[![GitHub observadores](https://img.shields.io/github/watchers/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/watchers)
+[![Colaboradores do GitHub](https://img.shields.io/github/contributors/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/graphs/contributors)
+[![Tag do GitHub (com filtro)](https://img.shields.io/github/v/tag/m3y54m/Embedded-Engineering-Roadmap?style=plastic&label=latest)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
+[![Lançamento do GitHub (por tag)](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/latest/total?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
+[![Tudo do GitHub releases](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/total?style=plastic&label=total%20downloads)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases)
 
-This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills.
+Este roteiro foi criado para ajudar iniciantes que desejam construir uma carreira como **Engenheiro/Desenvolvedor Embedded**, bem como auxiliar profissionais atuais a expandir suas habilidades.
 
-Embedded engineering demands a solid understanding of hardware functionality as well as software development and programming skills. If you really want to pursue this career you must be highly motivated and passionate about it. As the well-known saying goes, "Hardware is hard!". But don't panic and be patient for the challenges you may encounter along this exciting journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
+A engenharia embarcada exige uma sólida compreensão da funcionalidade do hardware, bem como habilidades de desenvolvimento e programação de software. Se você realmente quer seguir essa carreira, deve ser altamente motivado e apaixonado por ela. Como diz o ditado bem conhecido, "Hardware é difícil!". Mas não entre em pânico e seja paciente com os desafios que você pode encontrar ao longo desta jornada emocionante. Ao dedicar tempo e esforço suficientes praticando e fazendo projetos, você logo se verá como um verdadeiro engenheiro embarcado! 😀
 
-## ❓ What is an Embedded System?
+## ❓ O que é um sistema embarcado?
 
-▶️ [ISO/IEC/IEEE 24765 Standard:](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en)
+▶️ [Norma ISO/IEC/IEEE 24765:](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en)
 
-> **computer system** that is **part of a larger system** and **performs some of the requirements of that system**. For example, a computer system
-used in an aircraft or rapid transit system.
+> **sistema de computador** que é **parte de um sistema maior** e **executa alguns dos requisitos desse sistema**. Por exemplo, um sistema de computador
+usado em uma aeronave ou sistema de trânsito rápido.
 >
-> The hardware and software of an embedded system are usually **minimized** and **optimized** for **specific functions**. The embedded system includes at least one microcontroller, microprocessor or digital signal processor. The embedded system designed to **optimize reliability, cost, size and power saving for applications**.
+> O hardware e o software de um sistema embarcado são geralmente **minimizados** e **otimizados** para **funções específicas**. O sistema embarcado inclui pelo menos um microcontrolador, microprocessador ou processador de sinal digital. O sistema embarcado é projetado para **otimizar a confiabilidade, o custo, o tamanho e a economia de energia para aplicativos**.
 
-▶️ ["Making Embedded Systems" Book:](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
+▶️ [Livro "Making Embedded Systems":](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
-> An embedded system is a **computerized system** that is **purpose built for its application**.
+> Um sistema embarcado é um **sistema computadorizado** que é **construído especificamente para sua aplicação**.
 
-▶️ ["Computer Organization and Embedded Systems" Book:](https://a.co/d/2lt4Svf)
+▶️ [Livro "Computer Organization and Embedded Systems":](https://a.co/d/2lt4Svf)
 
-> A **physical system** that employs **computer control** for a **specific purpose**, rather than for general-purpose computation, is referred to as an embedded system.
+> Um **sistema físico** que emprega **controle de computador** para um **propósito específico**, em vez de computação de propósito geral, é chamado de sistema embarcado.
 
-▶️ [Analog Devices Glossary:](https://www.analog.com/en/design-center/glossary/embedded-system.html)
+▶️ [Glossário de dispositivos analógicos:](https://www.analog.com/en/design-center/glossary/embedded-system.html)
 
-> An embedded system is a system in which the **computer** (generally a microcontroller or microprocessor) is included **as an integral part of the system**.
+> Um sistema embarcado é um sistema no qual o **computador** (geralmente um microcontrolador ou microprocessador) é incluído **como parte integrante do sistema**.
 >
-> Often, the computer is **relatively invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
+> Frequentemente, o computador é **relativamente invisível para o usuário**, sem aplicativos, arquivos ou sistemas operacionais óbvios. Exemplos de produtos com sistemas embarcados invisíveis são o controlador que opera um forno de micro-ondas ou o sistema de controle do motor de um automóvel moderno.
 
-▶️ [Embedded Systems Glossary:](https://barrgroup.com/embedded-systems/glossary-e)
+▶️ [Glossário de sistemas embarcados:](https://barrgroup.com/embedded-systems/glossary-e)
 
-> A combination of **computer hardware and software**, and perhaps **additional mechanical or other parts**, designed to perform a **dedicated function**.
+> Uma combinação de **hardware e software de computador**, e talvez **peças mecânicas ou outras adicionais**, projetadas para executar uma **função dedicada**.
 >
-> In some cases, embedded systems are **part of a larger system** or product, as in the case of an antilock braking system in a car.
+> Em alguns casos, os sistemas embarcados são **parte de um sistema maior** ou produto, como no caso de um sistema de freios antibloqueio em um carro.
 
-## 🗺️ The Roadmap
+## 🗺️ O Roteiro
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
+![Roteiro de Engenharia de Sistemas Embarcados](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
-The embedded systems engineering roadmap is structured into three fundamental areas: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
+O roteiro de engenharia de sistemas embarcados é estruturado em três áreas fundamentais: **SOFTWARE**, **HARDWARE** e **SOFT SKILLS**.
 
-While the intersection of hardware and software is prevalent in embedded systems, specific job titles tend to emphasize one aspect over the other. For instance, roles like "Embedded Software Engineer/Developer," "Firmware Engineer/Developer," and "Embedded Linux Engineer/Developer" predominantly focus on software development. In contrast, positions such as "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily deal with hardware design and electronics. Moreover, there are roles like "Embedded Systems Engineer" that necessitate a comprehensive understanding of both hardware and software.
+Embora a intersecção de hardware e software seja predominante em sistemas embarcados, cargos específicos tendem a enfatizar um aspecto sobre o outro. Por exemplo, funções como "Engenheiro/Desenvolvedor de Software Embarcado", "Engenheiro/Desenvolvedor de Firmware" e "Engenheiro/Desenvolvedor Linux Embarcado" focam predominantemente no desenvolvimento de software. Em contraste, posições como "Engenheiro de Hardware Embarcado" e "Engenheiro de Design de Hardware" lidam principalmente com design de hardware e eletrônica. Além disso, há funções como "Engenheiro de Sistemas Embarcados" que exigem uma compreensão abrangente de hardware e software.
 
-It's crucial to note that each company in the embedded industry may have unique requirements for a given job title. Therefore, it's essential to tailor your focus based on your career aspirations. If you're seeking an embedded software position, prioritize the software-related skills outlined in the roadmap. Conversely, if you're interested in an embedded hardware job, concentrate on hardware skills and dedicate more time to learning electronics.
+É crucial observar que cada empresa no setor de embarcados pode ter requisitos exclusivos para um determinado cargo. Portanto, é essencial adaptar seu foco com base em suas aspirações de carreira. Se você estiver buscando uma posição de software embarcado, priorize as habilidades relacionadas a software descritas no roteiro. Por outro lado, se você estiver interessado em um trabalho de hardware embarcado, concentre-se nas habilidades de hardware e dedique mais tempo ao aprendizado de eletrônica.
 
-The roadmap provides a comprehensive guide to the essential topics for a typical "Embedded Systems Engineer" role. By delving into both software and hardware aspects, you can develop the necessary skills to thrive in this dynamic field. However, if you have a clear preference for software or hardware, you can tailor your learning path accordingly.
+O roteiro fornece um guia abrangente para os tópicos essenciais para uma função típica de "Engenheiro de Sistemas Embarcados". Ao se aprofundar nos aspectos de software e hardware, você pode desenvolver as habilidades necessárias para prosperar neste campo dinâmico. No entanto, se você tiver uma preferência clara por software ou hardware, poderá adaptar seu caminho de aprendizagem de acordo.
 
-> [!NOTE]
-> **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
- 
-> [!TIP]
-> To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
+> [!NOTA]
+> **Lembre-se de que a importância das habilidades individuais de software e hardware pode diferir dependendo dos requisitos específicos da empresa e da função.**
+
+> [!DICA]
+> Para diferenciar entre os tipos de recursos de aprendizagem e a qualidade de seu conteúdo, símbolos específicos são usados ​​antes de cada item.
 >
-> **Resource types:**
+> **Tipos de recursos:**
 >
-> - 📘 : Books
-> - 🎞️ : Videos
-> - 📝 : Write-ups, articles, and blog posts
-> - 🔗 : Other links that do not fit into any of the above categories
+> - 📘 : Livros
+> - 🎞️ : Vídeos
+> - 📝 : Redações, artigos e postagens de blog
+> - 🔗 : Outros links que não se encaixam em nenhuma das categorias acima
 >
-> **Content quality symbols:**
+> **Símbolos de qualidade do conteúdo:**
 >
-> - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
-> - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
+> - 👶 : Recursos fáceis de entender e amigáveis ​​para iniciantes. Consulte-os se você não tiver conhecimento prévio sobre um tópico.
+> - 💎 : Referências bem conhecidas que têm conteúdo verdadeiramente inestimável e abrangente. Consulte-as se quiser aprofundar sua compreensão de um tópico.
 
-> [!IMPORTANT]  
-> **This repository is not affiliated with or financially supported by any content creator, publisher, or organization. We do not endorse or recommend any specific paid resources. Both free and paid resources are included to provide a range of options, allowing you to choose what best suits your needs and preferences.**
+> [!IMPORTANTE]
+> **Este repositório não é afiliado ou apoiado financeiramente por nenhum criador de conteúdo, editor ou organização. Não endossamos ou recomendamos nenhum recurso pago específico. Recursos gratuitos e pagos estão incluídos para fornecer uma variedade de opções, permitindo que você escolha o que melhor se adapta às suas necessidades e preferências.**
 
-## 😕 Don't Know Where to Start!
+## 😕 Não sabe por onde começar!
 
-**If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort. Don't get discouraged if you don't understand something right away. Keep practicing and you will eventually get there.**
+**Se você se sente sobrecarregado pela extensa lista de tópicos no roteiro, você não está sozinho. Antes de nos aprofundarmos muito, vamos começar com alguns projetos iniciais simples. Aprender engenharia de sistemas embarcados leva tempo e esforço. Não desanime se não entender algo imediatamente. Continue praticando e você chegará lá.**
 
-### ⚒️ Projects
+### ⚒️ Projetos
 
-Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles. Undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than hours of aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in real-world projects.
+Envolver-se em projetos práticos é a abordagem mais eficaz para o aprendizado. Em vez de depender apenas do conhecimento teórico de livros ou artigos. Empreender projetos permite experiências práticas de aprendizado. Mesmo um projeto aparentemente básico tem o potencial de lhe ensinar mais do que horas de leitura sem objetivo. Você pode consultar livros, artigos e cursos quando tiver dificuldades para entender os problemas em projetos do mundo real.
 
-Don't try to build a complex project right away. Start with small, manageable projects to get your feet wet.
+Não tente construir um projeto complexo imediatamente. Comece com projetos pequenos e gerenciáveis ​​para começar.
 
-- [🔗 Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
-- [🔗 Last Minute Engineers](https://lastminuteengineers.com/)
-- [🔗 51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
-- [🔗 STM32 (STM32F103C8) Projects & Tutorials](https://circuitdigest.com/stm32-projects-and-tutorials)
-- [🔗 ElectronicWings Projects](https://www.electronicwings.com/projects)
-- [🔗 STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
-- [🔗 Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
-- [🔗 Embedded Linux On ARM | Projects](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
-- [🔗 Embedded System Project Series - Artful Bytes (YouTube Playlist)](https://www.youtube.com/playlist?list=PLS_iNJJVTtiRV0DZRDcTHnvAuDrKGPN40)
+- [🔗 Tutoriais aleatórios para nerds | Aprenda ESP32, ESP8266, Arduino e Raspberry Pi](https://randomnerdtutorials.com/)
+- [🔗 Engenheiros de última hora](https://lastminuteengineers.com/)
+- [🔗 51 projetos e tutoriais STM32 para iniciantes e mais - Hackster.io](https://www.hackster.io/stm32/projects)
+- [🔗 Projetos e tutoriais STM32 (STM32F103C8)](https://circuitdigest.com/stm32-projects-and-tutorials)
+- [🔗 Projetos ElectronicWings](https://www.electronicwings.com/projects)
+- [🔗 Firmware STM32 - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
+- [🔗 Ideias de projetos embarcados baseados em Raspberry Pi](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
+- [🔗 Linux embarcado em ARM | Projetos](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
+- [🔗 Série de projetos de sistemas embarcados - Artful Bytes (Playlist do YouTube)](https://www.youtube.com/playlist?list=PLS_iNJJVTtiRV0DZRDcTHnvAuDrKGPN40)
 
-### 🔎 Search and Ask!
+### 🔎 Pesquise e pergunte!
 
-Use search engines to find the answers to your questions.
+Use mecanismos de busca para encontrar as respostas para suas perguntas.
 
 - [🔗 Google](https://www.google.com)
 - [🔗 Bing](https://www.bing.com/)
 - [🔗 DuckDuckGo](https://duckduckgo.com/)
 
-If you can't find what you're looking for using search engines, AI chatbots can also provide assistance. Keep in mind that AI may provide incorrect answers in some cases. It's best to confirm any answers with more reliable references.
+Se você não consegue encontrar o que está procurando usando mecanismos de busca, os chatbots de IA também podem fornecer assistência. Tenha em mente que a IA pode fornecer respostas incorretas em alguns casos. É melhor confirmar quaisquer respostas com referências mais confiáveis.
 
-- [🔗 DuckDuckGo AI Chat](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
+- [🔗 Bate-papo com IA DuckDuckGo](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
 - [🔗 Microsoft Copilot](https://copilot.microsoft.com)
 - [🔗 Google Gemini](https://gemini.google.com)
 - [🔗 ChatGPT](https://chat.openai.com)
 - [🔗 Claude AI](https://claude.ai/chats)
-- [🔗 Poe - Fast, Helpful AI Chat](https://poe.com)
+- [🔗 Poe - Bate-papo rápido e útil com IA](https://poe.com)
 
-If you have reservations about relying on AI advice alone, you can also ask your questions from real people:
+Se você tem reservas sobre confiar apenas em conselhos de IA, também pode fazer suas perguntas a pessoas reais:
 
 - [🔗 Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
 - [🔗 Reddit · r/embedded](https://www.reddit.com/r/embedded/)
 
-### 🎥 Courses and YouTube Contents
+### 🎥 Cursos e Conteúdos do YouTube
 
-You may have heard that YouTube is a university. And it's true - there is an extensive amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
+Você já deve ter ouvido que o YouTube é uma universidade. Umad é verdade - há uma grande quantidade de conteúdo gratuito inestimável sobre sistemas embarcados disponível no YouTube. Você também encontrará alguns excelentes cursos gratuitos através do Coursera e do EdX. Além disso, a Udemy oferece algumas opções de cursos pagos de alta qualidade.
 
-- [🎞️ DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
-- [🎞️ Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
-- [🎞️ Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
+- [🎞️ DigiKey (Canal do YouTube)](https://www.youtube.com/@digikey)
+- [🎞️ Coursera - Introdução ao Software de Sistemas Embarcados e Ambientes de Desenvolvimento](https://www.coursera.org/learn/introduction-embedded-systems)
+- [🎞️ Coursera - Arquitetura de Software e Hardware Embarcados](https://www.coursera.org/learn/embedded-software-hardware)
 - [🎞️ Fastbit Embedded Brain Academy](https://fastbitlab.com/)
-- [🎞️ Modern Embedded Systems Programming Course (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
-- [🎞️ element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
-- [🎞️ Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
-- [🎞️ Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
-- [🎞️ Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
-- [🎞️ edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
+- [🎞️ Curso de Programação de Sistemas Embarcados Modernos (Lista de Reprodução do YouTube)](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
+- [🎞️ element14 apresenta (Canal do YouTube)](https://www.youtube.com/@element14presents)
+- [🎞️ Ben Eater (Canal do YouTube)](https://www.youtube.com/@BenEater)
+- [🎞️ Phil’s Lab (Canal do YouTube)](https://www.youtube.com/@PhilsLab)
+- [🎞️ Sistemas embarcados - Jacob Sorber (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
+- [🎞️ edX - Sistemas embarcados - Moldando o mundo: entrada/saída de microcontroladores](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [🎞️ edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 - [🎞️ Embedded Systems, in Pyjama!](https://www.youtube.com/@inpyjama)
 - [🎞️ Low Byte Productions](https://www.youtube.com/@lowbyteproductions)
 
 ### 🕹️ Arduino
 
-If you do not have any background in programming the embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
+Se você não tem experiência em programação de sistemas embarcados, as placas e bibliotecas Arduino são a melhor escolha para você começar e aprender o básico. Apenas tenha em mente que a maioria das bibliotecas Arduino são desenvolvidas para fins de aprendizado e não são otimizadas para serem usadas na indústria.
 
-Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
+Além disso, o [Arduino Core](https://github.com/arduino/ArduinoCore-API) cuida da maioria das operações de baixo nível associadas ao hardware que você, como engenheiro embarcado, deve ser capaz de lidar sozinho ou pelo menos ter uma compreensão clara. Se você quer se tornar um desenvolvedor profissional embarcado, você deve ser capaz de usar efetivamente APIs e SDKs padrão da indústria fornecidos e aprovados por fornecedores de microcontroladores, como CMSIS para microcontroladores ARM Cortex-M, STM32Cube para STM32, ESP-IDF para microcontroladores Espressif, etc.
 
-- [🔗 Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
-- [🎞️ All New Arduino R4 WiFi LESSONS for Absolute Beginners (YouTube Playlist)](https://www.youtube.com/playlist?list=PLGs0VKk2DiYyn0wN335MXpbi3PRJTMmex)
-- [🎞️ New Arduino Tutorials (YouTube Playlist)](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
-- [🎞️ Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
-- [🎞️ Arduino Project to Product (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQd6Fsf5NQ75M9llbi1_j_8)
+- [🔗 Introdução ao Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
+- [🎞️ Todas as novas LIÇÕES do Arduino R4 WiFi para iniciantes absolutos (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLGs0VKk2DiYyn0wN335MXpbi3PRJTMmex)
+- [🎞️ Novos tutoriais do Arduino (YouTube Playlist)](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
+- [🎞️ Arduino em um produto comercial?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
+- [🎞️ Projeto Arduino para Produto (Playlist do YouTube)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQd6Fsf5NQ75M9llbi1_j_8)
 
-### 👨‍🏫 Educational Websites
+### 👨‍🏫 Sites Educacionais
 
 - [🔗 DeepBlueMbedded](https://deepbluembedded.com/)
-- [🔗💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
+- [🔗💎 Interrupt Blog por Memfault](https://interrupt.memfault.com/blog/)
 - [🔗💎 EmbeddedRelated.com](https://www.embeddedrelated.com/)
-- [🔗 Embedded Systems, in Pyjama!](https://inpyjama.com)
-- [🔗 ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
+- [🔗 Sistemas embarcados, de pijama!](https://inpyjama.com)
+- [🔗 ElectronicWings - Comunidade de desenvolvedores de hardware](https://www.electronicwings.com/)
 - [🔗 Microchip University](https://mu.microchip.com/)
 - [🔗 Nordic Developer Academy](https://academy.nordicsemi.com/)
-- [🔗 Electronics Tutorials](https://www.electronics-tutorials.ws)
-- [🔗 SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
+- [🔗 Tutoriais de eletrônica](https://www.electronics-tutorials.ws)
+- [🔗 SparkFun Learn: Aprenda na SparkFun Electronics](https://learn.sparkfun.com/)
 - [🔗 Adafruit Learning System](https://learn.adafruit.com/)
-- [🔗 STM32 World](https://stm32world.com)
+- [🔗 STM32 Mundo](https://stm32world.com)
 - [🔗 ControllersTech](https://controllerstech.com/)
 
-### 🗺️ Other Helpful Roadmaps
+### 🗺️ Outros roteiros úteis
 
-- [🔗 Embedded Artistry Beginners Roadmap](https://embeddedartistry.com/beginners/)
-- [🔗 Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
-- [🔗 PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
-- [🔗 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
+- [🔗 Roteiro para iniciantes em arte embarcada](https://embeddedartistry.com/beginners/)
+- [🔗 Árvore de habilidades de sistemas embarcados](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
+- [🔗 Árvore de habilidades de design de PCB](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
+- [🔗 Engenharia FPGA/ASIC Roteiro](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
 
 ### 🛠️ IDEs
 
-- [🔗 Keil MDK & µVision](https://www.keil.com/)
+- [🔗 Keil MDK e µVision](https://www.keil.com/)
 - [🔗 IAR Embedded Workbench](https://www.iar.com)
 - [🔗 STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-- [🔗 Microchip Studio for AVR® and SAM Devices](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+- [🔗 Microchip Studio para dispositivos AVR® e SAM](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
 - [🔗 MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 - [🔗 MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
 
-### 👨‍💻 VS Code Extensions
+### 👨‍💻 Extensões do VS Code
 
 - [🔗 Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
-- [🔗 STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
+- [🔗 Extensão STM32 VS Code](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
 - [🔗 Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
-- [🔗 MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
+- [🔗 MCUXpresso para VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
 
 ### 🐜 PlatformIO
 
-PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
+PlatformIO é uma ferramenta profissional multiplataforma, multiarquitetura e estrutura múltipla para engenheiros de sistemas embarcados e desenvolvedores de software que escrevem aplicativos para produtos embarcados.
 
-- [🔗 PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
+- [🔗 PlatformIO - Uma plataforma colaborativa profissional para desenvolvimento embarcado](https://platformio.org/)
 
-PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
+O PlatformIO ainda não é amplamente adotado em projetos industriais e de grande escala, no entanto, é uma excelente escolha para indivíduos trabalhando em projetos menores. Isso ocorre porque ele reduz muito a necessidade de instalar frameworks e configurar ferramentas de compilação e depuração, permitindo que você se concentre na programação.
 
-## 📚 Learning Resources
+## 📚 Recursos de aprendizagem
 
-> [!WARNING]  
-> It is not necessary to read all the books, articles, or watch all the videos you see here. If you try to do so, you will finally get tired and disappointed. You cannot study all the available content here in a reasonable time because it may take years. It is important to study enough to have at least a basic understanding of the required topics. Of course, the more time you dedicate to studying and doing projects, the more profound your knowledge and expertise will become.
+> [!AVISO]
+> Não é necessário ler todos os livros, artigos ou assistir a todos os vídeos que você vê aqui. Se você tentar fazer isso, acabará se cansando e se decepcionando. Você não pode estudar todo o conteúdo disponível aqui em um tempo razoável porque pode levar anos. É importante estudar o suficiente para ter pelo menos uma compreensão básica dos tópicos necessários. Claro, quanto mais tempo você dedicar ao estudo e à execução de projetos, mais profundos seu conhecimento e experiência se tornarão.
 >
-> Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
+> Alguns dos recursos mencionados aqui serão usados ​​apenas como referências. Consulte-os apenas quando precisar.
 _________________
 
-### ✳️ Soft Skills
+### ✳️ Habilidades interpessoais
 
-Similar to other professions, embedded engineers require soft skills that can't be solely obtained from reading or watching videos. These skills are cultivated through interactions and tackling various work obstacles. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
+Semelhante a outras profissões, engenheiros embarcados exigem habilidades interpessoais que não podem ser obtidas apenas lendo ou assistindo a vídeos. Essas habilidades são cultivadas por meio de interações e enfrentando vários obstáculos de trabalho. Melhorar as habilidades interpessoais não é uma abordagem única. Ela varia com base nas características individuais de cada um e requer autoconsciência de seus pontos fortes e áreas de crescimento. Aprimorar essas habilidades leva tempo e esforço.
 
-- [📝 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
-- [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
-
-_________________
-
-### ✳️ Electronics
-
-#### 🔵 Basic Math & Calculus
-
-- [🎞️ Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
-- [📘👶 Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
-- [📘💎 Thomas' Calculus](https://a.co/d/gFcCC37)
-
-#### 🔵 Principles of Electric Circuits
-
-- [🔗👶 Lessons in Electric Circuits (All About Circuits)](https://www.allaboutcircuits.com/textbook/)
-- [🔗👶💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
-- [📘👶💎 Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
-- [📘👶💎 Principles of Electric Circuits: Conventional Current Version -  Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
-- [🎞️💎 Basic Circuit Theory I (By Prof. Razavi) (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9KyzjPFbwH37w22z-UHVEt37pdJHjZ7x)
-
-#### 🔵 Electronics Fundamentals
-
-- [🔗👶💎 Build Electronic Circuits - Øyvind Nydal Dahl](https://www.build-electronic-circuits.com/)
-- [🎞️👶 Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
-- [📘👶 Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
-- [📘👶💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
-- [📘👶💎 Electronics Fundamentals: Circuits, Devices & Applications - Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
-- [📘👶 Practical Electronics for Inventors - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
-- [📘💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
-- [📝 Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
-- [📘 Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
-
-#### 🔵 Digital Design
-
-- [🔗👶 Tiny Tapeout > Digital Design Guide](https://tinytapeout.com/digital_design/)
-- [📘💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
-- [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
-- [📘👶 Digital Fundamentals - Thomas L. Floyd](https://a.co/d/2lgJKNX)
-
-#### 🔵 Computer Architecture
-
-Computer architecture is the backbone of embedded systems, governing the hardware and software interactions. Embedded developers need a grasp of computer architecture to design, develop, and debug embedded software effectively. Expertise in ARM and RISC-V, two prevalent instruction set architectures (ISAs) in embedded systems, is paramount for embedded developers. ARM is the dominant ISA, while RISC-V's open-source nature and flexibility are gaining traction.
-
-- [📘👶💎 Computer Organization and Design: ARM Edition - David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
-- [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
-- [📘👶 The Elements of Computing Systems - Noam Nisan, Shimon Schocken](https://a.co/d/cX6jkLl)
-- [📘 Computer Organization and Embedded Systems - Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
-- [📘 Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
-- [📘 Embedded Systems Architecture - Daniele Lacamera](https://www.packtpub.com/product/embedded-systems-architecture-second-edition/9781803239545)
-- [📘 The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
-- [📘 The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780124080829/)
-- [🔗 Build an 8-bit computer from scratch](https://eater.net/8bit/)
+- [📝 Habilidades interpessoais para desenvolvedores de software de sistemas embarcados](https://www.embeddedrelated.com/showarticle/1470.php)
+- [📝 10 habilidades que todo engenheiro embarcado deve ter](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
 _________________
 
-### ✳️ Using Test Equipment
+### ✳️ Eletrônica
 
-Embedded systems often require specialized test equipment to verify their functionality and performance. This equipment includes multimeters, oscilloscopes, logic analyzers, function generators, power supplies, and other tools that allow engineers to measure signals, inject stimuli, and monitor the behavior of embedded systems.
+#### 🔵 Matemática básica e cálculo
 
-#### 🔵 Multimeter
+- [🎞️ Khan Academy - Cálculo 1](https://www.khanacademy.org/math/calculus-1)
+- [📘👶 Cálculo para leigos - Mark Ryan](https://a.co/d/cyvZqE1)
+- [📘💎 Thomas' Cálculo](https://a.co/d/gFcCC37)
 
-- [🎞️👶 Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
-- [📝👶 How to Use a Multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
+#### 🔵 Princípios de circuitos elétricos
 
-#### 🔵 Logic / Protocol Analyzer
+- [🔗👶 Lições sobre circuitos elétricos (tudo sobre circuitos)](https://www.allaboutcircuits.com/textbook/)
+- [🔗👶💎 Tutoriais de eletrônica](https://www.electronics-tutorials.ws)
+- [📘👶💎 Fundamentos de circuitos elétricos - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
+- [📘👶💎 Princípios de circuitos elétricos: versão de corrente convencional - Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
+- [🎞️💎 Teoria Básica de Circuitos I (Por Prof. Razavi) (Lista de Reprodução do YouTube)](https://www.youtube.com/playlist?list=PL9KyzjPFbwH37w22z-UHVEt37pdJHjZ7x)
 
-- [🎞️ Instrument Basics: Logic Analyzer](https://youtu.be/u1DYs2I-_lU)
+#### 🔵 Fundamentos de Eletrônica
 
-#### 🔵 Oscilloscope
+- [🔗👶💎 Construa Circuitos Eletrônicos - Øyvind Nydal Dahl](https://www.build-electronic-circuits.com/)
+- [🎞️👶 Fundamentos de Eletrônica - GreatScott! (Lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
+- [📘👶 Make: Eletrônica: aprendendo pela descoberta - Charles Platt](https://a.co/d/fbRoM1R)
+- [📘👶💎 Dispositivos eletrônicos: versão atual convencional - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
+- [📘👶💎 Fundamentos da eletrônica: circuitos, dispositivos e aplicações - Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
+- [📘👶 Eletrônica prática para inventores - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
+- [📘💎 A Arte da Eletrônica - Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
+- [📝 Aqui está uma maneira rápida de saber sobre os principais componentes eletrônicos](https://www.elprocus.com/major-electronic-components/)
+- [📘 Enciclopédia de Componentes Eletrônicos - Charles Platt](https://a.co/d/83cSiU7)
 
-- [🎞️👶 What’s an OSCILLOSCOPE?](https://youtu.be/DgYGRtkd9Vs)
-- [🎞️👶 How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
-- [🎞️👶 How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
-- [🎞️ Understanding EMI Debugging with Oscilloscopes](https://www.youtube.com/watch?v=x1rn5YNLmVw)
+#### 🔵 Design Digital
+
+- [🔗👶 Tiny Tapeout > Guia de Design Digital](https://tinytapeout.com/digital_design/)
+- [📘💎 Design Digital - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
+- [📘👶💎 Design digital e arquitetura de computadores: edição ARM - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [📘👶💎 Design digital e arquitetura de computadores: edição RISC-V - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [📘👶 Fundamentos digitais - Thomas L. Floyd](https://a.co/d/2lgJKNX)
+
+#### 🔵 Arquitetura de computadores
+
+A arquitetura de computadores é a espinha dorsal dos sistemas embarcados, governando o hardware e o softwarere interações. Desenvolvedores embarcados precisam ter uma noção de arquitetura de computador para projetar, desenvolver e depurar software embarcado de forma eficaz. Expertise em ARM e RISC-V, duas arquiteturas de conjunto de instruções (ISAs) predominantes em sistemas embarcados, é essencial para desenvolvedores embarcados. ARM é o ISA dominante, enquanto a natureza de código aberto e a flexibilidade do RISC-V estão ganhando força.
+
+- [📘👶💎 Organização e Design de Computadores: Edição ARM - David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
+- [📘👶💎 Design Digital e Arquitetura de Computadores: Edição ARM - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [📘👶💎 Design Digital e Arquitetura de Computadores: Edição RISC-V - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [📘👶 Os Elementos dos Sistemas de Computação - Noam Nisan, Shimon Schocken](https://a.co/d/cX6jkLl)
+- [📘 Organização de Computadores e Sistemas Embarcados - Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
+- [📘 Arquitetura de sistemas embarcados - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
+- [📘 Arquitetura de sistemas embarcados - Daniele Lacamera](https://www.packtpub.com/product/embedded-systems-architecture-second-edition/9781803239545)
+- [📘 O guia definitivo para processadores ARM® Cortex®-M0 e Cortex-M0+ - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
+- [📘 O guia definitivo para ARM® Processadores Cortex®-M3 e Cortex®-M4 - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780124080829/)
+- [🔗 Construa um computador de 8 bits do zero](https://eater.net/8bit/)
 
 _________________
 
-### ✳️ Prototyping Skills
+### ✳️ Usando equipamento de teste
 
-While hardware design and prototyping are primarily the responsibility of electronic hardware design engineers, embedded software engineers can benefit from a basic understanding of these concepts. This knowledge can be instrumental in identifying and resolving hardware-related issues during embedded system debugging. By having a grasp of hardware principles, embedded software engineers can effectively pinpoint the root causes of problems, leading to quicker and more efficient troubleshooting.
+Sistemas embarcados geralmente exigem equipamento de teste especializado para verificar sua funcionalidade e desempenho. Este equipamento inclui multímetros, osciloscópios, analisadores lógicos, geradores de função, fontes de alimentação e outras ferramentas que permitem aos engenheiros medir sinais, injetar estímulos e monitorar o comportamento de sistemas embarcados.
+
+#### 🔵 Multímetro
+
+- [🎞️👶 Aprenda a usar um multímetro!](https://youtu.be/4lAyzRxsbDc)
+- [📝👶 Como usar um multímetro](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
+
+#### 🔵 Analisador de lógica/protocolo
+
+- [🎞️ Noções básicas de instrumentos: analisador lógico](https://youtu.be/u1DYs2I-_lU)
+
+#### 🔵 Osciloscópio
+
+- [🎞️👶 O que é um OSCILOSCÓPIO?](https://youtu.be/DgYGRtkd9Vs)
+- [🎞️👶 Como usar um Osciloscópio](https://youtu.be/u4zyptPLlJI)
+- [🎞️👶 Como usar um osciloscópio / O que é um osciloscópio / Tutorial de osciloscópio](https://youtu.be/CzY2abWCVTY)
+- [🎞️ Entendendo a depuração EMI com osciloscópios](https://www.youtube.com/watch?v=x1rn5YNLmVw)
+
+_________________
+
+### ✳️ Habilidades de prototipagem
+
+Embora o design e a prototipagem de hardware sejam principalmente responsabilidade dos engenheiros de design de hardware eletrônico, os engenheiros de software embarcado podem se beneficiar de uma compreensão básica desses conceitos. Esse conhecimento pode ser fundamental para identificar e resolver problemas relacionados ao hardware durante a depuração do sistema embarcado. Ao compreender os princípios de hardware, os engenheiros de software embarcado podem identificar efetivamente as causas raiz dos problemas, levando a uma solução de problemas mais rápida e eficiente.
 
 #### 🔵 Breadboarding
 
-Breadboarding is a hands-on approach to prototyping circuits, providing a versatile platform for experimentation and circuit design. Embedded systems often utilize breadboards for their ease of use, flexibility, and cost-effectiveness. By connecting components on a breadboard, embedded systems developers can quickly test and refine their designs without the need for permanent soldering. This allows for rapid iterations and efficient debugging, making breadboarding an invaluable tool for embedded system development.
+Breadboarding é uma abordagem prática para prototipagem de circuitos, fornecendo uma plataforma versátil para experimentação e design de circuitos. Sistemas embarcados geralmente utilizam breadboards por sua facilidade de uso, flexibilidade e custo-benefício. Ao conectar componentes em um breadboard, os desenvolvedores de sistemas embarcados podem testar e refinar rapidamente seus designs sem a necessidade de soldagem permanente. Isso permite iterações rápidas e depuração eficiente, tornando o breadboarding uma ferramenta inestimável para o desenvolvimento de sistemas embarcados.
 
-- [🎞️👶 Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
-- [🎞️👶 How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+- [🎞️👶 Tudo o que você precisa saber sobre placas de ensaio](https://www.youtube.com/watch?v=mE33WpRWrXs)
+- [🎞️👶 Como usar uma placa de ensaio](https://youtu.be/6WReFkfrUIk)
 
-#### 🔵 Hardware Design Basics
+#### 🔵 Noções básicas de design de hardware
 
-- [🎞️👶💎 Hardware Design - Phil’s Lab (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
-- [🎞️ Electronic Circuit Design - IFE - TU Graz (YouTube Playlist)](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
-- [🎞️ Microcontroller-Based Hardware Design With Altium Designer (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
+- [🎞️👶💎 Design de hardware - Phil's Lab (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
+- [🎞️ Design de circuito eletrônico - IFE - TU Graz (YouTube Lista de reprodução)](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
+- [🎞️ Design de hardware baseado em microcontrolador com Altium Designer (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 
-#### 🔵 PCB Design / EMC
+#### 🔵 Design de PCB / EMC
 
-- [🎞️💎 Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
-- [🎞️💎 Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
-- [🎞️👶 Altium Tutorials for Beginners - Robert Feranec (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXvLToQzgzdduBaD4horowdWgcG5uGUW4)
-- [🎞️👶 Create PCBs for Rapid Prototyping - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
-- [🎞️👶💎 PCB Design for Beginners - Altium Academy (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5EsYtNwTPHNO3RHNJN34FbO)
-- [🎞️ How to Make a Raspberry Pi Compute Module 4 Carrier Board - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG)
-- [🎞️💎 How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
-- [🎞️👶 KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
-- [🎞️👶 Intro to KiCad - DigiKey (YouTube Playlist)](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
-- [🎞️💎 PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
-- [🎞️💎 PCB Design for Advanced Users (YouTube Playlist)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
-- [🎞️💎 PCB Knowledge [PCB Production Tips By PCBWay] (YouTube Playlist)](https://www.youtube.com/playlist?list=PLzxdr3n97eVtHuh7gnDzMubuO836kvfu7)
-- [🎞️💎 9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
-- [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
-- [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
-- [🔗 A Better Way to Build PCBs - Flux AI](https://www.flux.ai/p/)
+- [🎞️💎 Canal do YouTube da Altium Academy](https://www.youtube.com/@AltiumAcademy)
+- [🎞️💎 Canal do YouTube de Robert Feranec](https://www.youtube.com/@RobertFeranec)
+- [🎞️👶 Tutoriais Altium para iniciantes - Robert Feranec (Lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLXvLToQzgzdduBaD4horowdWgcG5uGUW4)
+- [🎞️👶 Crie PCBs para prototipagem rápida - DigiKey (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
+- [🎞️👶💎 Design de PCB para iniciantes - Altium Academy (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5EsYtNwTPHNO3RHNJN34FbO)
+- [🎞️ Como fazer uma placa portadora do módulo de computação 4 do Raspberry Pi - DigiKey (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG)
+- [🎞️💎 Como aprender design de PCB (meus pensamentos, jornada e recursos) - Laboratório de Phil nº 87](https://youtu.be/aODkA2mrimQ)
+- [🎞️👶 Tutorial completo de design de PCB KiCad 6 STM32 - Laboratório de Phil nº 65](https://youtu.be/aVUqaB0IMh4)
+- [🎞️👶 Introdução ao KiCad - DigiKey (lista de reprodução do YouTube)](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
+- [🎞️💎 Design de PCB para EMI e SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
+- [🎞️💎 Design de PCB para usuários avançados (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
+- [🎞️💎 Conhecimento de PCB [Dicas de produção de PCB por PCBWay] (YouTube Playlist)](https://www.youtube.com/playlist?list=PLzxdr3n97eVtHuh7gnDzMubuO836kvfu7)
+- [🎞️💎 9 truques simples para melhorar EMC / EMI em suas placas - Exemplos práticos (com Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
+- [🎞️💎 Muitas dicas de EMC para ajudar você a projetar melhores placas de PCB (com Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
+- [🔗 LearnEMC - Recursos de EMC](https://learnemc.com/emc-resources)
+- [🔗 Uma maneira melhor de construir PCBs - Flux AI](https://www.flux.ai/p/)
 - [🔗 EasyEDA](https://easyeda.com/it)
 - [🔗 Fritzing](https://fritzing.org/)
 - [🔗 Cirkit Designer](https://www.cirkitstudio.com/)
 
-#### 🔵 Soldering / Rework
+#### 🔵 Soldagem / Retrabalho
 
-- [🎞️👶 How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
-- [🎞️👶 HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
-- [🎞️👶 Soldering Crash Course: Basic Techniques, Tips and Advice!](https://www.youtube.com/watch?v=6rmErwU5E-k)
-- [🎞️ How to Solder Through-Hole Components - Another Teaching Moment | DigiKey Electronics](https://www.youtube.com/watch?v=DJH7VLGJ4fs)
-- [🎞️ How to Solder QFN MLF Package by Hand (Using a Hot Air Rework Station) | Digi-Key Electronics](https://youtu.be/X3Rc1s6EpSI)
-- [🎞️ From Solderless Breadboard to Soldered Circuit - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=F9Krq7seV1g)
-
-_________________
-
-### ✳️ FPGA Development
-
-FPGAs (Field-Programmable Gate Arrays) are specialized integrated circuits that can be configured to perform various digital logic functions. They are widely used in embedded systems to achieve high performance, flexibility, and cost-effectiveness. FPGA designers use hardware description languages (HDLs) to create customized circuits that map directly to the FPGA architecture. Since FPGA engineering and verification differ significantly from embedded software development, it stands as a specialized domain within embedded systems.
-
-- [🔗 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
-- [📝 What are FPGAs?](https://hackaday.io/project/27550-the-hobbyists-guide-to-fpgas/log/68114-what-are-fpgas)
-- [📝 FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
-- [🎞️👶 Introduction to FPGA (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
-- [🔗👶 FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
-- [🎞️💎 Coursera – FPGA Design for Embedded Systems Specialization](https://www.coursera.org/specializations/fpga-design)
-- [📘💎 A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
+- [🎞️👶 Como soldar - Eletrônica com Becky Stern | Eletrônica Digi-Key](https://www.youtube.com/watch?v=sS4v2hIFp9I)
+- [🎞️👶 COMO SOLDER! (Guia para iniciantes)](https://www.youtube.com/watch?v=3jAw41LRBxU)
+- [🎞️👶 Curso intensivo de soldagem: técnicas básicas, dicas e conselhos!](https://www.youtube.com/watch?v=6rmErwU5E-k)
+- [🎞️ Como soldar componentes de furo passante - outro momento de ensino | DigiKey Electronics](https://www.youtube.com/watch?v=DJH7VLGJ4fs)
+- [🎞️ Como soldar um pacote QFN MLF manualmente (usando uma estação de retrabalho de ar quente) | Digi-Key Electronics](https://youtu.be/X3Rc1s6EpSI)
+- [🎞️ De placa de ensaio sem solda a circuito soldado - Eletrônica com Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=F9Krq7seV1g)
 
 _________________
 
-### ✳️ Programming Fundamentals
+### ✳️ Desenvolvimento de FPGA
 
-Mastering programming fundamentals and software development principles is essential for a successful embedded design. Embedded systems demand efficient code, optimized data management, reusable design patterns, and effective memory management to function effectively in resource-constrained environments. Embedded developers must possess a strong foundation in these core concepts to create reliable and performant embedded systems.
+FPGAs (Field-Programmable Gate Arrays) são circuitos integrados especializados que podem ser configurados para executar várias funções lógicas digitais. Eles são amplamente usados ​​em sistemas embarcados para atingir alto desempenho, flexibilidade e custo-benefício. Os projetistas de FPGA usam linguagens de descrição de hardware (HDLs) para criar circuitos personalizados que mapeiam diretamente para a arquitetura FPGA. Como a engenharia e a verificação de FPGA diferem significativamente do desenvolvimento de software embarcado, ela se destaca como um domínio especializado dentro de sistemas embarcados.
 
-#### 🔵 Algorithms & Data Structures
+- [🔗 Roteiro de engenharia FPGA/ASIC](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
+- [📝 O que são FPGAs?](https://hackaday.io/project/27550-the-hobbyists-guide-to-fpgas/log/68114-what-are-fpgas)
+- [📝 FPGA vs. Microcontrolador: como escolher o certo para seu projeto](https://www.youtube.com/watch?v=jblpHUCPQYs)
+- [🎞️👶 Introdução ao FPGA (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
+- [🔗👶 Fundamentos do FPGA - Nandland](https://nandland.com/fpga-101/)
+- [🎞️💎 Coursera – Especialização em Design de FPGA para Sistemas Embarcados](https://www.coursera.org/specializations/fpga-design)
+- [📘💎 Um guia prático para projetar sistemas embarcados - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
+
+_________________
+
+### ✳️ Fundamentos de programação
+
+Dominar os fundamentos de programação e os princípios de desenvolvimento de software é essencial para um design embarcado bem-sucedido. Os sistemas embarcados exigem código eficiente, gerenciamento de dados otimizado, padrões de design reutilizáveis ​​e gerenciamento de memória eficaz para funcionar efetivamente em ambientes com recursos limitados. Os desenvolvedores embarcados devem possuir uma base sólida nesses conceitos básicos para criar sistemas embarcados confiáveis ​​e de alto desempenho.
+
+#### 🔵 Algoritmos e Estruturas de Dados
 
 - [📘👶💎 Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
-- [📘💎 Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
-- [🔗 Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes](https://github.com/TheAlgorithms/C)
-- [🎞️ Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
-- [🔗 Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
-- [🎞️ Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
-- [🔗 Hello Algo](https://www.hello-algo.com/en/)
+- [📘💎 Introdução aos Algoritmos - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest e Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
+- [🔗 Coleção de vários algoritmos em matemática, aprendizado de máquina, ciência da computação, física, etc. implementados em C para fins educacionais](https://github.com/TheAlgorithms/C)
+- [🎞️ Udemy – Máquinas de Estado e Dados de Sistemas Embarcados Estruturas](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
+- [🔗 Estruturas de Dados em C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
+- [🎞️ Estruturas de Dados - Curso Completo Usando C e C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+- [🔗 Olá Algo](https://www.hello-algo.com/en/)
 
-#### 🔵 Design Patterns
+#### 🔵 Padrões de Design
 
-- [📝 Practical Design Patterns: Opaque Pointers and Objects in C](https://interrupt.memfault.com/blog/opaque-pointers)
-- [📘💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
-- [📘💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
+- [📝 Padrões de Design Práticos: Ponteiros e Objetos Opacos em C](https://interrupt.memfault.com/blog/opaque-pointers)
+- [📘💎 Padrões de Design para Sistemas Embarcados em C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
+- [📘💎 Criando Sistemas Embarcados: Padrões de Design para Ótimos Softwares - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 - [🎧💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White (Audio Book)](https://www.audiobooks.com/audiobook/making-embedded-systems-design-patterns-for-great-software/814297)
 - [🔗 Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
 
-#### 🔵 State Machines
+#### 🔵 Máquinas de Estado
 
-- [📝 Programming embedded systems the easy way – with state machines](https://www.embedded.com/programming-embedded-systems-the-easy-way-with-state-machines/)
-- [🎞️💎 State Machines (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chxym7TgIPV9k5E8YJtSBToI)
-- [🎞️💎 Event-Driven Programming (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chx8Y7Oq2gOE0NUPXmQxu2Wr)
-- [🎞️💎 Udemy - Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
-- [📝 “Input-Driven” vs. Event-Driven State Machines](https://www.state-machine.com/input-driven-vs-event-driven-state-machines)
-- [📝 State Machines for Event-Driven Systems](https://barrgroup.com/embedded-systems/how-to/state-machines-event-driven-systems)
+- [📝 Programando sistemas embarcados da maneira mais fácil – com máquinas de estado](https://www.embedded.com/programming-embedded-systems-the-easy-way-with-state-machines/)
+- [🎞️💎 Máquinas de Estado (YouTube Lista de reprodução)](https://www.youtube.com/playlist?list=PLPW8O6W-1chxym7TgIPV9k5E8YJtSBToI)
+- [🎞️💎 Programação orientada a eventos (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLPW8O6W-1chx8Y7Oq2gOE0NUPXmQxu2Wr)
+- [🎞️💎 Udemy - Projeto de sistema embarcado usando máquinas de estado UML](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
+- [📝 Máquinas de estado orientadas a entrada vs. máquinas de estado orientadas a evento](https://www.state-machine.com/input-driven-vs-event-driven-state-machines)
+- [📝 Máquinas de estado para sistemas orientados a eventos](https://barrgroup.com/embedded-systems/how-to/state-machines-event-driven-systems)
 
-#### 🔵 Memory Management
+#### 🔵 Gerenciamento de memória
 
-- [🎞️ Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
-- [🎞️ Pointers and dynamic memory - stack vs heap](https://www.youtube.com/watch?v=_8-ht2AKyH4)
-- [🎞️ Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
-- [🎞️ Dynamic memory allocation in C - malloc calloc realloc free](https://www.youtube.com/watch?v=xDVC3wKjS64&t=140s)
-- [📝 What is Memory Leak in C/C++? How can we avoid?](https://aticleworld.com/what-is-memory-leak-in-c-c-how-can-we-avoid/)
-- [📝 Understanding Memory Management in Rust](https://medium.com/geekculture/understanding-memory-management-in-rust-a341cfce9807)
-- [📝 Memory Management in Python](https://realpython.com/python-memory-management/)
+- [🎞️ Entendendo o modelo de memória de tempo de execução C](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
+- [🎞️ Ponteiros e memória dinâmica - pilha vs heap](https://www.youtube.com/watch?v=_8-ht2AKyH4)
+- [🎞️ Alocação dinâmica de memória | Tutorial de programação em C](https://www.youtube.com/watch?v=R0qIYWo8igs)
+- [🎞️ Alocação dinâmica de memória em C - malloc calloc realloc grátis](https://www.youtube.com/watch?v=xDVC3wKjS64&t=140s)
+- [📝 O que é vazamento de memória em C/C++? Como podemos evitar?](https://aticleworld.com/what-is-memory-leak-in-c-c-how-can-we-avoid/)
+- [📝 Entendendo o gerenciamento de memória em Rust](https://medium.com/geekculture/understanding-memory-management-in-rust-a341cfce9807)
+- [📝 Gerenciamento de memória em Python](https://realpython.com/python-memory-management/)
 
 _________________
 
-### ✳️ Programming Languages
+### ✳️ Linguagens de programação
 
-Low-level languages like C and assembly provide direct hardware access, enabling efficient code optimization for resource-constrained embedded systems. System-level languages like C++ and Rust offer a higher level of abstraction for complex embedded applications, while Python is often employed for testing embedded systems due to its simplicity.
+Linguagens de baixo nível como C e assembly fornecem acesso direto ao hardware, permitindo otimização de código eficiente para sistemas embarcados com recursos limitados. Linguagens de nível de sistema como C++ e Rust oferecem um nível mais alto de abstração para aplicativos embarcados complexos, enquanto Python é frequentemente empregado para testar sistemas embarcados devido à sua simplicidade.
 
 #### 🔵 C
 
-- [🎞️👶 Microchip University - Syntax And Structure of C - Simply C](https://mu.microchip.com/syntax-and-structure-of-c)
-- [🎞️💎 Microchip University - Advanced C Programming](https://mu.microchip.com/advanced-c-programming)
-- [🎞️💎 Microchip University - Advanced Embedded C Tips, Tricks, and Cautions](https://mu.microchip.com/advanced-embedded-c-tips-tricks-and-cautions)
-- [🎞️💎 Microchip University - C Programming: Linked List Data Structures](https://mu.microchip.com/c-programming-linked-list-data-structures)
-- [🎞️💎 Microchip University - C Programming Callbacks](https://mu.microchip.com/c-programming-callbacks)
-- [🎞️👶 C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
-- [🎞️ C Programming Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
-- [📘💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
-- [🔗👶 C by Example](https://www.cbyexample.com/)
-- [📘 C How to Program -  Paul Deitel, Harvey Deitel](https://deitel.com/c-how-to-program-9-e/)
-- [📘 Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
+- [🎞️👶 Microchip University - Sintaxe e estrutura de C - Simply C](https://mu.microchip.com/syntax-and-structure-of-c)
+- [🎞️💎 Microchip University - Programação avançada em C](https://mu.microchip.com/advanced-c-programming)
+- [🎞️💎 Microchip University - Dicas, truques e cuidados avançados com C embarcado](https://mu.microchip.com/advanced-embedded-c-tips-tricks-and-cautions)
+- [🎞️💎 Microchip University - Programação em C: Estruturas de dados de lista encadeada](https://mu.microchip.com/c-programming-linked-list-data-structures)
+- [🎞️💎 Microchip University - Callbacks de programação C](https://mu.microchip.com/c-programming-callbacks)
+- [🎞️👶 Programação C para iniciantes | Curso completo](https://www.youtube.com/watch?v=ssJY5MDLjlo)
+- [🎞️ Tutoriais de programação C (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
+- [📘💎 A linguagem de programação C - Brian W. Kernighan, Dennis M. Ritchie](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
+- [🔗👶 C por exemplo](https://www.cbyexample.com/)
+- [📘 C Como programar - Paul Deitel, Harvey Deitel](https://deitel.com/c-how-to-program-9-e/)
+- [📘 Effective C - Uma introdução à programação profissional em C - Robert C. Seacord](https://nostarch.com/Effective_C)
 - [📘 Modern C - Jens Gustedt](https://gustedt.gitlabpages.inria.fr/modern-c/)
-- [🔗 Embedded C Coding Standard](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard)
-- [🔗 newlib C Library Documentation](https://sourceware.org/newlib/docs.html)
-- [🔗 The GNU C Library (glibc)](https://www.gnu.org/software/libc/documentation.html)
-- [📝 From Zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
-- [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
-- [🎞️👶 Learn C Programming and OOP with Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
-- [📘 Extreme C -  Kamran Amini](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
+- [🔗 Padrão de codificação C embarcado](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard)
+- [🔗 Documentação da biblioteca C newlib](https://sourceware.org/newlib/docs.html)
+- [🔗 A biblioteca C GNU (glibc)](https://www.gnu.org/software/libc/documentation.html)
+- [📝 Do zero ao main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
+- [📝 Do zero ao main(): Bootstrapping libc com Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
+- [🎞️👶 Aprenda programação em C e POO com o Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
+- [📘 Extreme C - Kamran Amini](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
 
 #### 🔵 C++
 
-- [📝 Modern C++ in Embedded Development: (Don't Fear) The ++](https://www.embeddedrelated.com/showarticle/1532.php)
-- [📝 C++ On Embedded Systems](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
-- [🎞️👶 C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
-- [🎞️ C++ by The Cherno (YouTube Playlist)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
-- [🎞️👶💎 Udemy - Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
-- [📘💎 Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming - Christopher Kormanyos](https://link.springer.com/book/10.1007/978-3-662-62996-3)
+- [📝 C++ moderno em desenvolvimento embarcado: (não tema) o ++](https://www.embeddedrelated.com/showarticle/1532.php)
+- [📝C++ em sistemas embarcados](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
+- [🎞️👶 Tutorial de C++ para iniciantes - Curso completo](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+- [🎞️ C++ por The Cherno (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- [🎞️👶💎 Udemy - Programação C++ para iniciantes - do iniciante ao além](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
+- [📘💎 C++ em tempo real: eficiente Programação de microcontroladores orientada a objetos e modelos - Christopher Kormanyos](https://link.springer.com/book/10.1007/978-3-662-62996-3)
 - [📘 Effective Modern C++ - Scott Meyers](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
 
 #### 🔵 Assembly
 
-- [📝👶 Introduction to ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/)
-- [🎞️ Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
-- [🎞️ Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
-- [📝 How to Use Inline Assembly Language in C Code](https://gcc.gnu.org/onlinedocs/gcc/extensions-to-the-c-language-family/how-to-use-inline-assembly-language-in-c-code.html)
+- [📝👶 Introdução aos princípios básicos de assembly ARM](https://azeria-labs.com/writing-arm-assembly-part-1/)
+- [🎞️ Udemy – Programação de assembly ARM GNU do zero](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
+- [🎞️ Programação em linguagem assembly com ARM – Tutorial completo para Iniciantes](https://www.youtube.com/watch?v=gfmRrPjnEw4)
+- [📝 Como usar a linguagem assembly em linha no código C](https://gcc.gnu.org/onlinedocs/gcc/extensions-to-the-c-language-family/how-to-use-inline-assembly-language-in-c-code.html)
 
 #### 🔵 Python
 
-- [📝 Python for embedded systems testing](https://www.elsys-design.com/en/python-embedded-systems-testing/)
+- [📝 Python para testes de sistemas embarcados](https://www.elsys-design.com/en/python-embedded-systems-testing/)
 - [📝👶 The Python Handbook – Learn Python for Beginners](https://www.freecodecamp.org/news/the-python-handbook/)
-- [🔗💎 Real Python: Python Tutorials](https://realpython.com/)
-- [📘👶💎 Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
+- [🔗💎 Real Python: Tutoriais Python](https://realpython.com/)
+- [📘👶💎 Curso intensivo de Python - Eric Matthes](https://a.co/d/hSMTJwE)
 
-##### 🔶 Python for Microcontrollers
+##### 🔶 Python para microcontroladores
 
-- [🔗 MicroPython - Python for microcontrollers](https://micropython.org/)
-- [🔗 MicroPython 101 | Arduino Documentation](https://docs.arduino.cc/micropython-course/)
+- [🔗 MicroPython - Python para microcontroladores](https://micropython.org/)
+- [🔗 MicroPython 101 | Documentação do Arduino](https://docs.arduino.cc/micropython-course/)
 - [🔗 CircuitPython](https://circuitpython.org/)
-- [📝 The Pros and Cons of Designing Embedded Systems with MicroPython](https://www.designnews.com/electronics-test/pros-and-cons-designing-embedded-systems-micropython)
-- [📝 Programming the ESP32 with MicroPython](https://wolles-elektronikkiste.de/en/programming-the-esp32-with-micropython)
+- [📝 Os prós e contras de projetar sistemas embarcados com MicroPython](https://www.designnews.com/electronics-test/pros-and-cons-designing-embedded-systems-micropython)
+- [📝 Programando o ESP32 com MicroPython](https://wolles-elektronikkiste.de/en/programming-the-esp32-with-micropython)
 
 #### 🔵 Rust
 
-- [📝 5 roadblocks to Rust adoption in embedded systems](https://www.embedded.com/5-roadblocks-to-rust-adoption-in-embedded-systems/)
-- [🔗 The Embedded Rust Book](https://docs.rust-embedded.org/book/)
-- [🎞️ The Future of Programming: Rust (YouTube Playlist)](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
-- [🔗 Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
-- [🔗 Rust on ESP Community](https://github.com/esp-rs)
-- [📝 Rust on STM32: Getting started](https://jonathanklimt.de/electronics/programming/embedded-rust/rust-on-stm32-2/)
-- [📝 From Zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
-- [📝 Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
-- [📝 Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
-- [🔗 Rustlings - Small exercises to get you used to reading and writing Rust code!](https://rustlings.cool/)
-- [🔗 Learn Rust the Effective Way](https://www.rustfinity.com/)
+- [📝 5 obstáculos para a adoção do Rust em sistemas embarcados sistemas](https://www.embedded.com/5-roadblocks-to-rust-adoption-in-embedded-systems/)
+- [🔗 O livro Rust incorporado](https://docs.rust-embedded.org/book/)
+- [🎞️ O futuro da programação: Rust (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
+- [🔗 Projetos de suporte Rust da comunidade para microcontroladores STM32](https://github.com/stm32-rs)
+- [🔗 Comunidade Rust on ESP](https://github.com/esp-rs)
+- [📝 Rust on STM32: Obtendo iniciado](https://jonathanklimt.de/electronics/programming/embedded-rust/rust-on-stm32-2/)
+- [📝 Do zero ao main(): Rust bare metal](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
+- [📝 Escrevendo um SO em Rust - blog de Philipp Oppermann](https://os.phil-opp.com/)
+- [📝 Driver de kernel com Rust em 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
+- [🔗 Rustlings - Pequenos exercícios para você se acostumar a ler e escrever código Rust!](https://rustlings.cool/)
+- [🔗 Aprenda Rust de forma eficaz](https://www.rustfinity.com/)
 
 #### 🔵 Zig
 
-- [📝 Testing Zig for embedded development](https://www.kuon.ch/post/2022-06-22-zig-embed/)
-- [🔗 Zig Embedded Group](https://github.com/ZigEmbeddedGroup)
-- [🔗 MicroZig - Unified abstraction layer and HAL for several microcontrollers](https://github.com/ZigEmbeddedGroup/microzig)
-- [📝 Zig Bare Metal Programming on STM32F103 — Booting up](https://maldus512.medium.com/zig-bare-metal-programming-on-stm32f103-booting-up-b0ecdcf0de35)
+- [📝 Testando Zig para desenvolvimento embarcado](https://www.kuon.ch/post/2022-06-22-zig-embed/)
+- [🔗 Grupo Zig Embedded](https://github.com/ZigEmbeddedGroup)
+- [🔗 MicroZig - Camada de abstração unificada e HAL para vários microcontroladores](https://github.com/ZigEmbeddedGroup/microzig)
+- [📝 Programação Zig Bare Metal no STM32F103 — Inicializando](https://maldus512.medium.com/zig-bare-metal-programming-on-stm32f103-booting-up-b0ecdcf0de35)
 
 _________________
 
-### ✳️ Microcontrollers
+### ✳️ Microcontroladores
 
-Microcontrollers are integrated circuits (ICs) that combine a microprocessor, memory, and input/output (I/O) peripherals on a single chip. They are designed for embedded applications, where they are used to control devices in a variety of industries, including automotive, industrial, consumer electronics, and healthcare.
+Microcontroladores são circuitos integrados (ICs) que combinam um microprocessador, memória e periféricos de entrada/saída (E/S) em um único chip. Eles são projetados para aplicações embarcadas, onde são usados ​​para controlar dispositivos em uma variedade de indústrias, incluindo automotiva, industrial, eletrônica de consumo e saúde.
 
-Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and ESP32. Choosing the right microcontroller involves assessing application requirements, processing power, memory needs, and input/output capabilities. Consider ease of use, cost, reliability, availability, and future expansion.
+Algumas famílias populares de microcontroladores incluem AVR, PIC, STM32, MSP430, nRF e ESP32. Escolher o microcontrolador certo envolve avaliar os requisitos da aplicação, poder de processamento, necessidades de memória e capacidades de entrada/saída. Considere facilidade de uso, custo, confiabilidade, disponibilidade e expansão futura.
 
-- [📝 What Is a Microcontroller? The Defining Characteristics and Architecture of a Common Component](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
-- [📝 How to Choose the Right Microcontroller for Your Application](https://www.allaboutcircuits.com/technical-articles/how-to-choose-the-right-microcontroller-for-your-application/)
-- [📝 How to Read a Microcontroller Datasheet: Introduction and First Steps](https://www.allaboutcircuits.com/technical-articles/how-to-read-a-microcontroller-datasheet-introduction-and-first-steps2/)
-- [📘👶 Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
-- [🎞️👶💎 NewbieHack - Microcontroller Tutorial - A Beginners Guide (AVR)](https://www.youtube.com/playlist?list=PLE72E4CFE73BD1DE1)
-- [🎞️👶 Getting Started with STM32 and Nucleo (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
-- [📘💎 Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
-- [📘💎 Developing IoT Projects with ESP32 - Vedat Ozan Oner](https://www.packtpub.com/product/developing-iot-projects-with-esp32-second-edition/9781803237688)
-- [🎞️👶 Intro to Raspberry Pi Pico and RP2040 (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
-- [🔗 Getting started with STM32: STM32 step-by-step](https://wiki.st.com/stm32mcu/wiki/Category:Getting_started_with_STM32_:_STM32_step_by_step)
-- [🎞️ Getting Started With AVR (YouTube Playlist)](https://www.youtube.com/playlist?list=PLtQdQmNK_0DRhBWYZ32BEILOykXLpJ8tP)
-- [🎞️ Fundamentals of Microcontrollers - Arduino bare-metal breakdown (YouTube Playlist)](https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR)
-- [🎞️ Bare Metal Embedded Programming: Theory and Practice Using STM32 (YouTube Playlist)](https://www.youtube.com/playlist?list=PL4cGeWgaBTe155QQSQ72DksLIjBn5Jn2Z)
-- [📘 Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
-- [🎞️ Udemy – Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
-- [🎞️ Udemy – Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
-- [🎞️ Udemy – Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
-- [📘 Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
-- [📘💎 Embedded Systems Design using the MSP430FR2355 LaunchPad - Brock J. LaMeres](https://link.springer.com/book/10.1007/978-3-030-40574-8)
-- [📘💎 Building Embedded Systems: Programmable Hardware - Changyi Gu](https://link.springer.com/book/10.1007/978-1-4842-1919-5)
-- [🔗 Awesome Embedded: A curated list of awesome embedded programming](https://github.com/nhivp/Awesome-Embedded)
+- [📝 O que é um microcontrolador? As características definidoras e a arquitetura de um componente comum](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
+- [📝 Como escolher o microcontrolador certo para sua aplicação](https://www.allaboutcircuits.com/technical-articles/how-to-choose-the-right-microcontroller-for-your-application/)
+- [📝 Como ler uma folha de dados de microcontrolador: introdução e primeiros passos](https://www.allaboutcircuits.com/technical-articles/how-to-read-a-microcontroller-datasheet-introduction-and-first-steps2/)
+- [📘👶 Make: Programação AVR - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
+- [🎞️👶💎 NewbieHack - Tutorial de microcontrolador - Um guia para iniciantes (AVR)](https://www.youtube.com/playlist?list=PLE72E4CFE73BD1DE1)
+- [🎞️👶 Introdução ao STM32 e Nucleo (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
+- [📘💎 Dominando o STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
+- [📘💎 Desenvolvendo Projetos de IoT com ESP32 - Vedat Ozan Oner](https://www.packtpub.com/product/developing-iot-projects-with-esp32-second-edition/9781803237688)
+- [🎞️👶 Introdução ao Raspberry Pi Pico e RP2040 (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
+- [🔗 Introdução ao STM32: STM32 passo a passo](https://wiki.st.com/stm32mcu/wiki/Category:Getting_started_with_STM32_:_STM32_step_by_step)
+- [🎞️ Introdução ao AVR (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLtQdQmNK_0DRhBWYZ32BEILOykXLpJ8tP)
+- [🎞️ Fundamentos de microcontroladores - análise bare-metal do Arduino (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR)
+- [🎞️ Programação embarcada bare metal: teoria e prática usando STM32 (YouTube Playlist)](https://www.youtube.com/playlist?list=PL4cGeWgaBTe155QQSQ72DksLIjBn5Jn2Z)
+- [📘 Iniciando STM32: Desenvolvendo com FreeRTOS, libopencm3 e GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
+- [🎞️ Udemy – Programação C embarcada em microcontroladores: iniciantes absolutos](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
+- [🎞️ Udemy – Driver de APIs de baixa camada (LL) STM32 para sistemas embarcados Desenvolvimento](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
+- [🎞️ Udemy – Desenvolvimento de driver de APIs HAL STM32 para sistemas embarcados](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
+- [📘 Projeto de sistema embarcado com microcontroladores ARM Cortex-M: aplicações com C, C++ e MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
+- [📘💎 Projeto de sistemas embarcados usando o LaunchPad MSP430FR2355 - Brock J. LaMeres](https://link.springer.com/book/10.1007/978-3-030-40574-8)
+- [📘💎 Construindo sistemas embarcados: hardware programável - Changyi Gu](https://link.springer.com/book/10.1007/978-1-4842-1919-5)
+- [🔗 Awesome Embedded: uma lista com curadoria de programação embarcada incrível](https://github.com/nhivp/Awesome-Embedded)
 
 #### 🔵 GPIO
 
-- [🎞️ Tutorial 5: Peripheral 1 - General purpose Input Output (GPIO) Configuration in STM32](https://youtu.be/tjDhmavBGf0)
+- [🎞️ Tutorial 5: Periférico 1 - Configuração de entrada/saída (GPIO) de uso geral no STM32](https://youtu.be/tjDhmavBGf0)
 
 #### 🔵 ADC
 
-- [🎞️ How Do ADCs Work? - The Learning Circuit](https://www.youtube.com/watch?v=g4BvbAKNQ90)
-- [🎞️ Tutorial 13: ADC in STM32F4](https://youtu.be/vIlG_i3GqeU)
-- [🎞️ Tutorial 14: ADC by Polling](https://www.youtube.com/watch?v=uUi6JyUuEJA)
+- [🎞️ Como funcionam os ADCs? - O circuito de aprendizagem](https://www.youtube.com/watch?v=g4BvbAKNQ90)
+- [🎞️ Tutorial 13: ADC em STM32F4](https://youtu.be/vIlG_i3GqeU)
+- [🎞️ Tutorial 14: ADC por sondagem](https://www.youtube.com/watch?v=uUi6JyUuEJA)
 
 #### 🔵 DAC
 
-- [🎞️ How Do DACs Work? - The Learning Circuit](https://www.youtube.com/watch?v=YAxrmoVtEtE)
-- [🎞️ DAC in STM32 || Sine wave || HAL || CubeIDE](https://www.youtube.com/watch?v=6Z1L6ox63j0)
+- [🎞️ Como funcionam os DACs? - O circuito de aprendizagem](https://www.youtube.com/watch?v=YAxrmoVtEtE)
+- [🎞️ DAC em STM32 || Onda senoidal || HAL || CubeIDE](https://www.youtube.com/watch?v=6Z1L6ox63j0)
 
-#### 🔵 Timers / Counters
+#### 🔵 Temporizadores / Contadores
 
-- [📝 Introduction to Microcontroller Timers: Periodic Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
-- [📝 AVR Timer programming](https://exploreembedded.com/wiki/AVR_Timer_programming)
-- [🎞️ STM32 TIMERS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
+- [📝 Introdução aos Temporizadores de Microcontroladores: Temporizadores Periódicos](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
+- [📝 Programação de Temporizadores AVR](https://exploreembedded.com/wiki/AVR_Timer_programming)
+- [🎞️ TEMPORIZADORES STM32 (Lista de Reprodução do YouTube)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
 
-#### 🔵 PWM (Pulse Width Modulation)
+#### 🔵 PWM (Modulação por Largura de Pulso)
 
-- [🎞️ What is PWM?](https://www.youtube.com/watch?v=B_Ysdv1xRbA)
-- [📝 Pulse-width Modulation (PWM) Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-pwm-timers/)
-- [🎞️ STM32 Guide #3: PWM + Timers](https://www.youtube.com/watch?v=AjN58ceQaF4)
+- [🎞️ O que é PWM?](https://www.youtube.com/watch?v=B_Ysdv1xRbA)
+- [📝 Temporizadores de Modulação por Largura de Pulso (PWM) em Microcontroladores](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-pwm-timers/)
+- [🎞️ Guia STM32 nº 3: PWM + Temporizadores](https://www.youtube.com/watch?v=AjN58ceQaF4)
 
-#### 🔵 RTC  (Real Time Clock)
+#### 🔵 RTC (Relógio de Tempo Real)
 
-- [📝 Real Time Clocks (RTCs) in Microcontroller Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-real-time-clocks/)
+- [📝 Relógios de Tempo Real (RTCs) em Microcontroladores Temporizadores](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-real-time-clocks/)
 
 #### 🔵 Watchdog
 
-- [📝 A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
-- [📝 Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers/)
-- [🎞️ The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
-- [🎞️ WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
+- [📝 Um guia para temporizadores Watchdog para sistemas embarcados](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
+- [📝 Temporizadores Watchdog em microcontroladores](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers/)
+- [🎞️ O temporizador Watchdog no Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
+- [🎞️ WATCHDOGS em STM32 || IWDG e WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
 
-#### 🔵 Interrupts
+#### 🔵 Interrupções
 
-- [🎞️ Polling/Interrupt/DMA differences explained easily](https://www.youtube.com/watch?v=LNPBr3WvuNg)
-- [🎞️ Level Up Your Arduino Code: External Interrupts](https://www.youtube.com/watch?v=J61_PKyWjxU)
-- [🎞️ Tutorial 10: Peripheral 2 - Nested Vector Interrupt controller (NVIC) in STM32](https://www.youtube.com/watch?v=qwebM-YaSU4)
-- [🎞️ Tutorial 11: LAB - External Interrupt ( EXTI ) Interfacing in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=oJc0seuBbzI)
-- [🎞️ Tutorial 12: Interrupt Priorities in STM32](https://www.youtube.com/watch?v=aXLJD4qJmtk)
+- [🎞️ Diferenças de Polling/Interrupção/DMA explicadas facilmente](https://www.youtube.com/watch?v=LNPBr3WvuNg)
+- [🎞️ Melhore seu código Arduino: interrupções externas](https://www.youtube.com/watch?v=J61_PKyWjxU)
+- [🎞️ Tutorial 10: Periférico 2 - Controlador de interrupção vetorial aninhado (NVIC) no STM32](https://www.youtube.com/watch?v=qwebM-YaSU4)
+- [🎞️ Tutorial 11: LAB - Interface de interrupção externa ( EXTI ) no STM32 usando STM32CUBEMX](https://www.youtube.com/watch?v=oJc0seuBbzI)
+- [🎞️ Tutorial 12: Prioridades de interrupção no STM32](https://www.youtube.com/watch?v=aXLJD4qJmtk)
 
 #### 🔵 DMA
 
-- [🎞️ Introduction to Direct Memory Access (DMA)](https://www.youtube.com/watch?v=M16l_ymlfcs)
+- [🎞️ Introdução ao acesso direto à memória (DMA)](https://www.youtube.com/watch?v=M16l_ymlfcs)
 - [🎞️ STM32 DMA PT 1](https://www.youtube.com/watch?v=yvLHtXJ_KSg)
 - [🎞️ STM32 DMA PT 2](https://www.youtube.com/watch?v=Kb8dX18xYuo)
-- [🎞️ Getting Started With STM32 & Nucleo Part 4: Working with ADC and DMA - Maker.io](https://www.youtube.com/watch?v=EsZLgqhqfO0)
-- [🎞️ STM32 UART DMA and IDLE LINE || Receive unknown length DATA](https://www.youtube.com/watch?v=Bo6MC5A8uTE)
+- [🎞️ Introdução ao STM32 e Nucleo Parte 4: Trabalhando com ADC e DMA - Maker.io](https://www.youtube.com/watch?v=EsZLgqhqfO0)
+- [🎞️ STM32 UART DMA e LINHA IDLE || Receber DADOS de comprimento desconhecido](https://www.youtube.com/watch?v=Bo6MC5A8uTE)
 
-#### 🔵 Clock Management
+#### 🔵 Gerenciamento de relógio
 
-- [📝 Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
-- [🎞️ STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
-- [🎞️ #1. Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
-- [🎞️ Tutorial 8: MCU Clocks configuration in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
-- [🎞️ Clock sources and PLL in ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
+- [📝 Configuração de relógio no STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
+- [🎞️ STM32: Alterar velocidade do relógio via registradores](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
+- [🎞️ #1. Introdução à programação baseada em registradores STM32F4 || Configuração do relógio || LED piscando || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
+- [🎞️ Tutorial 8: Configuração de relógios MCU no STM32 usando STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
+- [🎞️ Fontes de relógio e PLL no ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
 
-#### 🔵 Power Management
+#### 🔵 Gerenciamento de energia
 
-- [🎞️ SLEEP Mode in STM32F103 || CubeIDE || Low Power Mode || Current Consumption](https://www.youtube.com/watch?v=2rKcsGkCG0s)
-- [🎞️ STOP MODE in STM32 || CubeIDE || Low Power Mode](https://www.youtube.com/watch?v=UtQhc4XV8k4)
+- [🎞️ Modo SLEEP no STM32F103 || CubeIDE || Modo de baixo consumo || Consumo de corrente](https://www.youtube.com/watch?v=2rKcsGkCG0s)
+- [🎞️ MODO STOP no STM32 || CubeIDE || Modo de baixo consumo](https://www.youtube.com/watch?v=UtQhc4XV8k4)
 
-#### 🔵 Bootloader / DFU (Device Firmware Update)
+#### 🔵 Bootloader / DFU (Atualização de firmware do dispositivo)
 
-- [📝 Basics to Developing Bootloader for Arduino](https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino)
-- [📝 From Zero to main(): How to Write a Bootloader from Scratch](https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch)
-- [🎞️ How to Create a Super Simple Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
-- [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
-- [📝 Simple AVR Bootloader tutorial](https://www.pocketmagic.net/simple-avr-bootloader-tutorial/)
-- [🎞️💎 Udemy – STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
-- [📝💎 Device Firmware Update Cookbook](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
+- [📝 Noções básicas para desenvolver bootloader para Arduino](https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino)
+- [📝 Do zero ao main(): como escrever um bootloader do zero](https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch)
+- [🎞️ Como criar um super simples Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
+- [🎞️ Blinky para Bootloader: Série de programação Bare Metal (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
+- [📝 Tutorial do Bootloader AVR Simples](https://www.pocketmagic.net/simple-avr-bootloader-tutorial/)
+- [🎞️💎 Udemy – Bootloader personalizado para microcontrolador STM32Fx Desenvolvimento](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
+- [📝💎 Manual de atualização de firmware do dispositivo](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
 
 _________________
 
-### ✳️ Interfaces, Protocols & Communication Technologies
+### ✳️ Interfaces, protocolos e tecnologias de comunicação
 
-Embedded systems often communicate with other devices or external systems via interfaces, protocols. Interfaces provide the physical connections, protocols define data exchange rules. The choice depends on application-specific needs, including bandwidth, distance, security, and power consumption.
+Os sistemas embarcados geralmente se comunicam com outros dispositivos ou sistemas externos por meio de interfaces e protocolos. As interfaces fornecem as conexões físicas, os protocolos definem as regras de troca de dados. A escolha depende das necessidades específicas do aplicativo, incluindo largura de banda, distância, segurança e consumo de energia.
 
-#### 🔵 ‌Basic Protocols
+#### 🔵 ‌Protocolos básicos
 
-- [🎞️👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
-- [🎞️👶 Serial Protocol Fundamentals](https://www.youtube.com/watch?v=yz7h5xd18OE)
-- [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
-- [🎞️ PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
+- [🎞️👶 Compreendendo os protocolos seriais](https://www.youtube.com/watch?v=LEz5UCN3aHA)
+- [🎞️👶 Fundamentos do protocolo serial](https://www.youtube.com/watch?v=yz7h5xd18OE)
+- [📝👶 Compreendendo e selecionando em 2024: I2C, SPI, UART explicados](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
+- [🎞️ PROTOCOLOS: UART - I2C - SPI - Comunicações seriais #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
 ##### 🔶 UART
 
-- [🎞️👶 Understanding UART](https://www.youtube.com/watch?v=sTHckUyxwp8)
-- [🎞️ how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI)
-- [🎞️ Basics of UART Communication | UART Frame Structure | RS 232 Basics | Part1](https://www.youtube.com/watch?v=JuvWbRhhpdI)
-- [🎞️ Understanding UART Communication Programming | UART Peripherals | Part 2](https://www.youtube.com/watch?v=QmjKRwgddxw)
-- [🎞️ The RS-232 protocol](https://www.youtube.com/watch?v=AHYNxpqKqwo)
+- [🎞️👶 Entendendo UART](https://www.youtube.com/watch?v=sTHckUyxwp8)
+- [🎞️ como funciona o UART??? (explicado claramente)](https://www.youtube.com/watch?v=V6m2skVlsQI)
+- [🎞️ Noções básicas de comunicação UART | Estrutura do quadro UART | Noções básicas de RS 232 | Parte 1](https://www.youtube.com/watch?v=JuvWbRhhpdI)
+- [🎞️ Entendendo a programação de comunicação UART | Periféricos UART | Parte 2](https://www.youtube.com/watch?v=QmjKRwgddxw)
+- [🎞️ O protocolo RS-232](https://www.youtube.com/watch?v=AHYNxpqKqwo)
 
 ##### 🔶 I2C
 
-- [🎞️👶 Understanding I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
-- [📝 I2C in a Nutshell](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
-- [🎞️ STM32 I2C SLAVE (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
+- [🎞️👶 Entendendo I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
+- [📝 I2C em poucas palavras](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
+- [🎞️ STM32 I2C SLAVE (YouTube Lista de reprodução)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
 
 ##### 🔶 SPI
 
-- [🎞️👶 Understanding SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
-- [🎞️ SPI: The serial peripheral interface](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
-- [🎞️ Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
+- [🎞️👶 Entendendo SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
+- [🎞️ SPI: A interface periférica serial](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
+- [🎞️ Introdução ao STM32 e Nucleo Parte 5: Como usar SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
 ##### 🔶 SDIO
 
-- [📝 SDIO Protocol](https://prodigytechno.com/sdio-protocol/)
-- [📝 Interface SD CARD with SDIO in STM32](https://controllerstech.com/interface-sd-card-with-sdio-in-stm32/)
-- [🔗 SDIO Card Slave Driver - ESP32 - Technical Documents](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sdio_slave.html)
+- [📝 Protocolo SDIO](https://prodigytechno.com/sdio-protocol/)
+- [📝 Interface SD CARD com SDIO em STM32](https://controllerstech.com/interface-sd-card-with-sdio-in-stm32/)
+- [🔗 Driver escravo de cartão SDIO - ESP32 - Documentos técnicos](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sdio_slave.html)
 
 ##### 🔶 I3C
 
-- [🎞️ What is I3C®?](https://www.youtube.com/watch?v=g3TBNHec5Ec)
-- [🔗 MIPI I3C & MIPI I3C Basic](https://www.mipi.org/specifications/i3c-sensor-specification)
-- [📝 I3C Protocol: Understanding and Debug](https://prodigytechno.com/mipi-i3c-protocol-debug/)
-- [🎞️ MIPI I3C Basic - The next generation sensor interface enabling low-power IoT applications](https://www.youtube.com/watch?v=xWKxZp_9RFQ)
+- [🎞️ O que é I3C®?](https://www.youtube.com/watch?v=g3TBNHec5Ec)
+- [🔗 MIPI I3C e MIPI I3C Básico](https://www.mipi.org/specifications/i3c-sensor-specification)
+- [📝 Protocolo I3C: Compreendendo e depurando](https://prodigytechno.com/mipi-i3c-protocol-debug/)
+- [🎞️ MIPI I3C Basic - A interface de sensor de próxima geração que permite aplicações de IoT de baixo consumo de energia](https://www.youtube.com/watch?v=xWKxZp_9RFQ)
 
 ##### 🔶 1-Wire
 
-- [🎞️ 1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
+- [🎞️ Visão geral da tecnologia 1-Wire®](https://www.youtube.com/watch?v=CjH-OztKe00)
 
-#### 🔵 Digital Audio Protocols
+#### 🔵 Protocolos de áudio digital
 
 ##### 🔶 I2S
 
-- [📝 Introduction to the I2S Interface](https://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2s-interface/)
-- [🎞️ Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
-- [🔗 UM11732 - I2S bus specification](https://www.nxp.com/docs/en/user-manual/UM11732.pdf)
+- [📝 Introdução ao I2S Interface](https://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2s-interface/)
+- [🎞️ Construindo um tocador de música digital com I2S?! O que é I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
+- [🔗 UM11732 - Especificação do barramento I2S](https://www.nxp.com/docs/en/user-manual/UM11732.pdf)
 
 ##### 🔶 PCM
 
-- [🔗 HUAWEI LGA Module - PCM Audio Design Guide](https://www.paoli.cz/out/media/HUAWEI%20LGA%20Module%20PCM%20Audio%20Design%20Guide-V100R001_04(1).pdf)
-- [📝 PCM Terminology and Concepts](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
+- [🔗 Módulo LGA HUAWEI - Guia de design de áudio PCM](https://www.paoli.cz/out/media/HUAWEI%20LGA%20Module%20PCM%20Audio%20Design%20Guide-V100R001_04(1).pdf)
+- [📝 Terminologia e conceitos do PCM](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
 
-#### 🔵 Display & Camera Protocols
+#### 🔵 Tela e câmera Protocolos
 
 ##### 🔶 MIPI CSI-2
 
-- [🔗 MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
+- [🔗 Interface serial de câmera MIPI 2](https://www.mipi.org/specifications/csi-2)
 - [🎞️ Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
 - [🔗 AN13573 - i.MX 8/RT MIPI DSI/CSI-2](https://www.nxp.com/docs/en/application-note/AN13573.pdf)
 
 ##### 🔶 MIPI DSI
 
-- [🔗 MIPI Display Serial Interface](https://www.mipi.org/specifications/dsi)
-- [🔗 AN4860 - Introduction to DSI host on STM32 MCUs and MPUs](https://www.st.com/resource/en/application_note/an4860-introduction-to-dsi-host-on-stm32-mcus-and-mpus-stmicroelectronics.pdf)
+- [🔗 Interface serial de exibição MIPI](https://www.mipi.org/specifications/dsi)
+- [🔗 AN4860 - Introdução ao host DSI em MCUs STM32 e MPUs](https://www.st.com/resource/en/application_note/an4860-introduction-to-dsi-host-on-stm32-mcus-and-mpus-stmicroelectronics.pdf)
 
 ##### 🔶 HDMI
 
-- [🎞️ TI Precision Labs - Video Interface: What are HDMI & Dual-Mode DisplayPort?](https://www.youtube.com/watch?v=jCO7Up1rzJc)
-- [🎞️ HDMI 2.1 & TMDS Crash Course - ENMU EET 457 - Presentation](https://www.youtube.com/watch?v=5acgSK0kWTE)
+- [🎞️ TI Precision Labs - Interface de vídeo: O que são HDMI e DisplayPort de modo duplo?](https://www.youtube.com/watch?v=jCO7Up1rzJc)
+- [🎞️ Curso intensivo de HDMI 2.1 e TMDS - ENMU EET 457 - Apresentação](https://www.youtube.com/watch?v=5acgSK0kWTE)
 
-#### 🔵 Wireless Protocols
+#### 🔵 Protocolos sem fio
 
 ##### 🔶 Bluetooth / BLE
 
-- [🎞️👶💎 Microchip University - First Steps into Bluetooth Low Energy (BLE)](https://mu.microchip.com/first-steps-into-bluetooth-low-energy-ble)
-- [📝 Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
-- [📝 Bluetooth Low Energy: A Primer](https://interrupt.memfault.com/blog/bluetooth-low-energy-a-primer)
-- [📝 A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
-- [🎞️ SparkFun According to Pete #49 - How Bluetooth Works](https://www.youtube.com/watch?v=zJqGLWQGyvk)
-- [🔗 Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
-- [🔗 Bluetooth Overview - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/bluetooth.html)
+- [🎞️👶💎 Microchip University - Primeiros passos em Bluetooth Low Energy (BLE)](https://mu.microchip.com/first-steps-into-bluetooth-low-energy-ble)
+- [📝 Noções básicas sobre Bluetooth](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
+- [📝 Bluetooth Low Energy: Um guia básico](https://interrupt.memfault.com/blog/bluetooth-low-energy-a-primer)
+- [📝 Um guia prático para o rendimento BLE](https://interrupt.memfault.com/blog/ble-throughput-primer)
+- [🎞️ SparkFun de acordo com Pete #49 - Como o Bluetooth funciona](https://www.youtube.com/watch?v=zJqGLWQGyvk)
+- [🔗 Fundamentos do Bluetooth Low Energy - Nordic Semicondutor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
+- [🔗 Visão geral do Bluetooth - Guia de programação ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/bluetooth.html)
 
 ##### 🔶 Wi-Fi
 
-- [🎞️ 802.11 How WiFi Works - Wireless Networks | Computer Networks Ep. 7.3 | Kurose & Ross](https://www.youtube.com/watch?v=vvhEnr52UOU)
-- [🎞️ 802.11 Frame Analysis](https://www.youtube.com/watch?v=ITAJb3v5VKQ)
-- [🔗 Wi-Fi Driver - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wifi.html)
-- [📝 ESP32 Set an Access Point (AP) using ESP-IDF](https://esp32tutorials.com/esp32-access-point-ap-esp-idf/)
-- [📝 ESP32 ESP-IDF Connect with WiFi – Station Mode Example](https://esp32tutorials.com/esp32-esp-idf-connect-wifi-station-mode-example/)
+- [🎞️ 802.11 Como o WiFi funciona - Redes sem fio | Redes de computadores Ep. 7.3 | Kurose & Ross](https://www.youtube.com/watch?v=vvhEnr52UOU)
+- [🎞️ Análise de quadros 802.11](https://www.youtube.com/watch?v=ITAJb3v5VKQ)
+- [🔗 Driver Wi-Fi - Guia de programação ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wifi.html)
+- [📝 ESP32 Defina um ponto de acesso (AP) usando ESP-IDF](https://esp32tutorials.com/esp32-access-point-ap-esp-idf/)
+- [📝 ESP32 ESP-IDF Conecte-se com WiFi – Modo estação Exemplo](https://esp32tutorials.com/esp32-esp-idf-connect-wifi-station-mode-example/)
 
 ##### 🔶 LoRa / LoRaWAN
 
-- [📝 The Arduino Guide to LoRa® and LoRaWAN®](https://docs.arduino.cc/learn/communication/lorawan-101)
-- [🔗💎 The Things Fundamentals on LoRaWAN!](https://www.thethingsnetwork.org/docs/lorawan/)
-- [📝 What are LoRa® and LoRaWAN®?](https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/)
-- [🎞️ #112 LoRa / LoRaWAN De-Mystified / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
-- [🔗 ESP32 with LoRa using Arduino IDE – Getting Started](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
+- [📝 O guia Arduino para LoRa® e LoRaWAN®](https://docs.arduino.cc/learn/communication/lorawan-101)
+- [🔗💎 Os fundamentos das coisas sobre LoRaWAN!](https://www.thethingsnetwork.org/docs/lorawan/)
+- [📝 O que são LoRa® e LoRaWAN®?](https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/)
+- [🎞️ #112 LoRa / LoRaWAN desmistificado / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
+- [🔗 ESP32 com LoRa usando Arduino IDE – Introdução](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
 
 ##### 🔶 Zigbee
 
-- [🎞️ What is ZIGBEE And How It Works?](https://www.youtube.com/watch?v=THtVeaxnd9E)
-- [🎞️ How to take advantage of Zigbee and Bluetooth LE 5.2 on STM32WB wireless MCUs - Webinar Replay](https://www.youtube.com/watch?v=2sYEPykOaLQ)
+- [🎞️ O que é ZIGBEE e como funciona?](https://www.youtube.com/watch?v=THtVeaxnd9E)
+- [🎞️ Como aproveitar o Zigbee e o Bluetooth LE 5.2 em MCUs sem fio STM32WB - Replay do webinar](https://www.youtube.com/watch?v=2sYEPykOaLQ)
 
-##### 🔶 Thread
+##### 🔶 Tópico
 
-- [🔗 OpenThread - An open-source implementation of Thread®](https://openthread.io/)
-- [🎞️ What is Thread? Low-power IoT Networking for Smart Home Devices | Digi-Key Electronics](https://youtu.be/5CauESYB9-A)
-- [🔗 OpenThread - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/openthread.html)
+- [🔗 OpenThread - Uma implementação de código aberto de Thread®](https://openthread.io/)
+- [🎞️ O que é Thread? Rede IoT de baixo consumo para dispositivos domésticos inteligentes | Digi-Key Electronics](https://youtu.be/5CauESYB9-A)
+- [🔗 OpenThread - Guia de programação ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/openthread.html)
 
 ##### 🔶 Matter
 
-- [🎞️ What is Matter? Unifying IoT Devices for the Smart Home | Digi-Key Electronics](https://youtu.be/vJIEfih9bl0)
+- [🎞️ O que é Matter? Unificando dispositivos IoT para a casa inteligente | Digi-Key Electronics](https://youtu.be/vJIEfih9bl0)
 
-#### 🔵 Industrial Protocols
+#### 🔵 Protocolos Industriais
 
 ##### 🔶 Modbus
 
-- [🎞️ What is Modbus and How does it Work?](https://www.youtube.com/watch?v=txi2p5_OjKU)
-- [🎞️ How does Modbus Communication Protocol Work?](https://www.youtube.com/watch?v=JBGaInI-TG4)
-- [🎞️ MODBUS STM32 (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8ggRvaEsMjSEDazoBAnY4MUv)
+- [🎞️ O que é Modbus e como ele funciona?](https://www.youtube.com/watch?v=txi2p5_OjKU)
+- [🎞️ Como funciona o Protocolo de Comunicação Modbus?](https://www.youtube.com/watch?v=JBGaInI-TG4)
+- [🎞️ MODBUS STM32 (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLfIJKC1ud8ggRvaEsMjSEDazoBAnY4MUv)
 
 ##### 🔶 RS485
 
-- [🎞️ What is RS485 and How it's used in Industrial Control Systems?](https://www.youtube.com/watch?v=3wgKcUDlHuM)
-- [🎞️ What is RS-485?](https://www.youtube.com/watch?v=bt9Px51eP6s)
+- [🎞️ O que é RS485 e como ele é usado em sistemas de controle industrial?](https://www.youtube.com/watch?v=3wgKcUDlHuM)
+- [🎞️ O que é RS-485?](https://www.youtube.com/watch?v=bt9Px51eP6s)
 
 ##### 🔶 EtherCAT
 
-- [🎞️ Microchip University - An Introduction to EtherCAT®, EtherCAT P and the Microchip LAN925x family of Slave Controllers](https://mu.microchip.com/an-introduction-to-ethercat-ethercat-p-and-the-microchip-lan925x-family-of-slave-controllers)
+- [🎞️ Microchip University - Uma introdução ao EtherCAT®, EtherCAT P e a família Microchip LAN925x de escravos Controladores](https://mu.microchip.com/an-introduction-to-ethercat-ethercat-p-and-the-microchip-lan925x-family-of-slave-controllers)
 
-##### 🔶 CoAP & MQTT
+##### 🔶 CoAP e MQTT
 
-- [🎞️ #144 Internet Protocols: CoAP vs MQTT, Network Sniffing, and preparation for IKEA Tradfri Hacking](https://www.youtube.com/watch?v=pfG8uEDZj5g)
-- [🎞️ MQTT vs. CoAP | Comparison of IoT Protocols](https://www.youtube.com/watch?v=0CORpVSUQe0)
-- [🎞️ Simple ESP32 IoT Sensor Node Tutorial: WiFi Enabled MQTT Sensor Data Node](https://www.youtube.com/watch?v=x5A5S0hoyJ0)
-- [🔗 Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
+- [🎞️ #144 Protocolos de Internet: CoAP vs MQTT, Sniffing de rede e preparação para o IKEA Tradfri Hacking](https://www.youtube.com/watch?v=pfG8uEDZj5g)
+- [🎞️ MQTT vs. CoAP | Comparação de protocolos de IoT](https://www.youtube.com/watch?v=0CORpVSUQe0)
+- [🎞️ Tutorial simples do nó do sensor de IoT ESP32: nó de dados do sensor MQTT habilitado para WiFi](https://www.youtube.com/watch?v=x5A5S0hoyJ0)
+- [🔗 Fundamentos da IoT Celular - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
-#### 🔵 High-Speed Protocols
+#### 🔵 Protocolos de alta velocidade
 
 ##### 🔶 Ethernet
 
-- [🎞️👶 Microchip University - Ethernet Fundamentals](https://mu.microchip.com/ethernet-fundamentals)
-- [📝 How the Ethernet Protocol Works – A Complete Guide](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
-- [🎞️ What is an Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
-- [🎞️ The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://youtu.be/_b4dXKB8Pt8)
-- [🎞️ Microchip University - Serializer/Deserializer (SerDes) Basics for Your Next Microchip Ethernet PHY Design](https://mu.microchip.com/serializerdeserializer-serdes-basics-for-your-next-microchip-ethernet-phy-design)
-- [🎞️ Microchip University - Ethernet Switch Fundamentals](https://mu.microchip.com/ethernet-switch-fundamentals)
+- [🎞️👶 Microchip University - Fundamentos da Ethernet](https://mu.microchip.com/ethernet-fundamentals)
+- [📝 Como o protocolo Ethernet funciona - um guia completo Guia](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
+- [🎞️ O que é um Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
+- [🎞️ A camada de enlace de dados, endereçamento MAC e o quadro Ethernet](https://youtu.be/_b4dXKB8Pt8)
+- [🎞️ Microchip University - Noções básicas sobre serializador/desserializador (SerDes) para seu próximo projeto de PHY Ethernet da Microchip](https://mu.microchip.com/serializerdeserializer-serdes-basics-for-your-next-microchip-ethernet-phy-design)
+- [🎞️ Microchip University - Switch Ethernet Fundamentos](https://mu.microchip.com/ethernet-switch-fundamentals)
 
 ##### 🔶 USB
 
-- [🎞️👶 Microchip University - Introduction to USB 2.0](https://mu.microchip.com/introduction-to-usb-20)
-- [🎞️👶 Microchip University - USB 3 Fundamentals](https://mu.microchip.com/usb-3-fundamentals)
-- [🎞️ Training - USB 101 - Introduction to USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
-- [🔗 USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
-- [🎞️ How does a USB keyboard work?](https://youtu.be/wdgULBpRoXk)
-- [🎞️ How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
-- [🎞️ MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
-- [🎞️ Microchip University - USB2 Hub Fundamentals](https://mu.microchip.com/usb2-hub-fundamentals)
+- [🎞️👶 Microchip University - Introdução ao USB 2.0](https://mu.microchip.com/introduction-to-usb-20)
+- [🎞️👶 Microchip University - Fundamentos do USB 3](https://mu.microchip.com/usb-3-fundamentals)
+- [🎞️ Treinamento - USB 101 - Introdução ao USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
+- [🔗 USB 101: Uma introdução ao barramento serial universal 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
+- [🎞️ Como funciona um teclado USB?](https://youtu.be/wdgULBpRoXk)
+- [🎞️ Como funciona a descoberta de dispositivos USB?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
+- [🎞️ MOOC - Treinamento USB STM32 (YouTube Lista de reprodução)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
+- [🎞️ Universidade Microchip - Fundamentos do Hub USB2](https://mu.microchip.com/usb2-hub-fundamentals)
 
 ##### 🔶 PCIe
 
-- [🎞️ What is PCIe?](https://www.youtube.com/watch?v=L9qXjmJdQXY)
-- [🎞️ PCIe QuickLearn (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9B4edd-p2ajuP4dBHcnhtHKoZKkoR1R4)
-- [🎞️ PCIe Protocol (YouTube Playlist)](https://www.youtube.com/playlist?list=PLZe4P0P_9Cosd0i2ha_QRdWlR1iZ0yVG4)
+- [🎞️ O que é PCIe?](https://www.youtube.com/watch?v=L9qXjmJdQXY)
+- [🎞️ PCIe QuickLearn (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PL9B4edd-p2ajuP4dBHcnhtHKoZKkoR1R4)
+- [🎞️ Protocolo PCIe (YouTube Playlist)](https://www.youtube.com/playlist?list=PLZe4P0P_9Cosd0i2ha_QRdWlR1iZ0yVG4)
 
-#### 🔵 Automotive Protocols
+#### 🔵 Protocolos automotivos
 
 ##### 🔶 CAN
 
-- [🎞️👶 Microchip University - CAN and CAN FD Protocol and Physical Layer Basics](https://mu.microchip.com/understanding-the-can-fd-protocol)
-- [📝👶 CAN bus in 2024: Operation, Advantages and Recent Developments](https://www.parlezvoustech.com/en/bus-can-2024-technologie-avantages-evolutions/)
-- [🎞️👶 CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
-- [🎞️👶 CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
-- [🎞️👶 CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
-- [🎞️💎 Microchip University - Designing and Implementing a CAN FD Network](https://mu.microchip.com/designing-and-implementing-a-can-fd-network)
-- [🎞️ Improving my electric longboard with a CAN Bus! What can the CAN Bus do? EB#44](https://www.youtube.com/watch?v=PL0TPdrhMuI)
-- [🎞️ CAN Bus, OBD2 & J1939 Explained (YouTube Playlist)](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
-- [🎞️ J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
-- [🎞️ Unified Diagnostic Services (UDS) Explained - A Simple Intro [2022]](https://www.youtube.com/watch?v=CV_B8tJgI5E)
+- [🎞️👶 Microchip University - Protocolo CAN e CAN FD e noções básicas da camada física](https://mu.microchip.com/understanding-the-can-fd-protocol)
+- [📝👶 Barramento CAN em 2024: operação, vantagens e desenvolvimentos recentes](https://www.parlezvoustech.com/en/bus-can-2024-technologie-avantages-evolutions/)
+- [🎞️👶 Barramento CAN: comunicação serial - como Funciona?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
+- [🎞️👶 CAN Bus: Um guia para iniciantes, parte 1](https://www.youtube.com/watch?v=YBrU_eZM110)
+- [🎞️👶 CAN Bus: Um guia para iniciantes, parte 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
+- [🎞️💎 Microchip University - Projetando e implementando uma rede CAN FD](https://mu.microchip.com/designing-and-implementing-a-can-fd-network)
+- [🎞️ Melhorando meu longboard elétrico com um CAN Bus! O que o CAN Bus pode fazer? EB#44](https://www.youtube.com/watch?v=PL0TPdrhMuI)
+- [🎞️ CAN Bus, OBD2 e J1939 explicados (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
+- [🎞️ J1939 explicado - Uma introdução simples [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
+- [🎞️ Unified Diagnostic Services (UDS) explicados - Uma introdução simples [2022]](https://www.youtube.com/watch?v=CV_B8tJgI5E)
 
-#### 🔵 Network Protocols / Socket Programming
+#### 🔵 Protocolos de rede / Programação de soquete
 
-- [🎞️ Networking Fundamentals - Practical Networking (YouTube Playlist)](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
-- [🎞️ TCP vs UDP - Explaining Facts and Debunking Myths - TCP Masterclass](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
-- [🎞️ TCP - 12 simple ideas to explain the Transmission Control Protocol](https://www.youtube.com/watch?v=JFch3ctY6nE)
-- [🎞️ UDP doesn't suck! It's the BEST L4 protocol for THESE types of applications...](https://www.youtube.com/watch?v=LaDRWycC7Iw)
-- [🎞️ Networking tutorial - Ben Eater (YouTube Playlist)](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
-- [📘💎 Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
-- [📘💎 Network Algorithmics - George Varghese, Jun Xu](https://www.oreilly.com/library/view/network-algorithmics-2nd/9780128099865/)
-- [🔗 tcpdump & libpcap libraries](https://www.tcpdump.org/)
-- [🔗 lwIP - A Lightweight TCP/IP stack](https://savannah.nongnu.org/projects/lwip/)
+- [🎞️ Fundamentos de rede - Rede prática (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+- [🎞️ TCP vs UDP - Explicando fatos e desmascarando mitos - Masterclass TCP](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
+- [🎞️ TCP - 12 ideias simples para explicar o Transmission Control Protocol](https://www.youtube.com/watch?v=JFch3ctY6nE)
+- [🎞️ UDP não é ruim! É o MELHOR protocolo L4 para ESSES tipos de aplicações...](https://www.youtube.com/watch?v=LaDRWycC7Iw)
+- [🎞️ Tutorial de rede - Ben Eater (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
+- [📘💎 Programação de rede prática com C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
+- [📘💎 Algoritmos de rede - George Varghese, Jun Xu](https://www.oreilly.com/library/view/network-algorithmics-2nd/9780128099865/)
+- [🔗 bibliotecas tcpdump e libpcap](https://www.tcpdump.org/)
+- [🔗 lwIP - Um TCP/IP leve pilha](https://savannah.nongnu.org/projects/lwip/)
 - [🔗 lwIP (ESP-IDF)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/lwip.html)
-- [🔗 Developing applications on STM32Cube with LwIP TCP/IP stack](https://www.st.com/resource/en/user_manual/um1713-developing-applications-on-stm32cube-with-lwip-tcpip-stack-stmicroelectronics.pdf)
+- [🔗 Desenvolvendo aplicativos no STM32Cube com pilha LwIP TCP/IP](https://www.st.com/resource/en/user_manual/um1713-developing-applications-on-stm32cube-with-lwip-tcpip-stack-stmicroelectronics.pdf)
 
-#### 🔵 Cellular Communication
+#### 🔵 Comunicação celular
 
 ##### 🔶 GSM / LTE
 
-- [🎞️ STM32 : Internet Of Things With 4G LTE Modem (YouTube Playlist)](https://www.youtube.com/playlist?list=PL2_RO8p04imYY5JOrCDT7V0hnzkgyExRe)
+- [🎞️ STM32: Internet das coisas com modem 4G LTE (YouTube Playlist)](https://www.youtube.com/playlist?list=PL2_RO8p04imYY5JOrCDT7V0hnzkgyExRe)
 
-##### 🔶 LTE-M & NB-IoT
+##### 🔶 LTE-M e NB-IoT
 
-- [🔗 Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
+- [🔗 Fundamentos da IoT Celular - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
 _________________
 
-### ✳️ Memory Technologies & File Systems
+### ✳️ Tecnologias de Memória e Sistemas de Arquivos
 
-Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, based on factors like performance, cost, power consumption, and durability.
+Os sistemas embarcados empregam uma combinação de memória volátil (SRAM, DRAM, PSRAM) e não volátil (flash, EEPROM, FRAM) para armazenar e acessar dados, com base em fatores como desempenho, custo, consumo de energia e durabilidade.
 
-- [📝 Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
+- [📝 Opções de memória para sistemas embarcados: como selecionar a configuração de memória correta](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
 
-#### 🔵 Flash Memory
+#### 🔵 Memória Flash
 
-- [📝 NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
+- [📝 NAND e eMMC: tudo o que você precisa saber sobre memória Flash](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
 
 ##### 🔶 NOR / NAND
 
-- [🎞️ QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
-- [🎞️ QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
-- [🎞️ Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
+- [🎞️ QSPI em STM32 || Escrever e ler || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
+- [🎞️ QSPI em STM32 || Inicializar a partir da memória EXT || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
+- [🎞️ Memória Flash em Sistemas Linux Embarcados](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
 
 ##### 🔶 eMMC
 
-- [🎞️ What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
+- [🎞️ O que é um eMMC? Introdução, Comparação com Outros Armazenamentos e Atualização. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
 
-##### 🔶 SD Card
+##### 🔶 Cartão SD
 
-- [🎞️ Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
+- [🎞️ Interface com um cartão SD](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
 
 #### 🔵 EEPROM
 
-- [🎞️ Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
+- [🎞️ Usando EEPROM com Arduino - Interno e Externo](https://www.youtube.com/watch?v=ShqvATqXA7g)
 
 #### 🔵 SRAM / DRAM
 
-- [📝 SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
-- [🎞️ What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
-- [🎞️ SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
-- [🎞️ SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
+- [📝 SRAM vs DRAM: Diferença entre SRAM e DRAM explicada](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
+- [🎞️ O que é SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
+- [🎞️ Tutorial de hardware e firmware SDRAM (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
+- [🎞️ SDRAM em STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
 
-#### 🔵 File Systems
+#### 🔵 Sistemas de arquivos
 
-A file system is a way of organizing data on a storage device, such as a hard drive, flash drive, or solid-state drive. It provides a way to store, access, and manage files, which are collections of data that can be accessed individually. File systems in embedded systems are typically lightweight and optimized for efficiency, considering the limited resources and specific requirements of embedded devices. They often employ simpler file structures and data structures compared to desktop or server file systems.
+Um sistema de arquivos é uma maneira de organizar dados em um dispositivo de armazenamento, como um disco rígido, unidade flash ou unidade de estado sólido. Ele fornece uma maneira de armazenar, acessar e gerenciar arquivos, que são coleções de dados que podem ser acessados ​​individualmente. Os sistemas de arquivos em sistemas embarcados são normalmente leves e otimizados para eficiência, considerando os recursos limitados e os requisitos específicos dos dispositivos embarcados. Eles geralmente empregam estruturas de arquivo e estruturas de dados mais simples em comparação aos sistemas de arquivo de desktop ou servidor.
 
-- [📝 Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
-- [📝 Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
-- [📝 Understanding the UBI File System in Embedded Devices](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
-- [📝 UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
-- [📝 JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
-- [📝 Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
-- [🔗 LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
-- [🔗 SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
-- [🔗 EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
+- [📝 Sistemas de arquivos Flash](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
+- [📝 Sistemas de arquivos em bloco](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
+- [📝 Entendendo o sistema de arquivos UBI em dispositivos embarcados](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
+- [📝 Sistema de arquivos UBI](https://docs.kernel.org/filesystems/ubifs.html)
+- [📝 JFFS: O sistema de arquivos Flash Journalling](https://sourceware.org/jffs2/jffs2-html/)
+- [📝 Prevenindo a corrupção do sistema de arquivos em dispositivos embarcados Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
+- [🔗 LittleFS - Um sistema de arquivos embarcado de alta integridade](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
+- [🔗 SPIFS - Sistema de arquivos flash SPI com nível de desgaste para dispositivos embarcados](https://github.com/pellepl/spiffs)
+- [🔗 Sistema de arquivos EEPROM (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
 
 _________________
 
-### ✳️ Hardware Simulation / Emulation
+### ✳️ Simulação/emulação de hardware
 
-Embedded system development often involves simulating or emulating hardware environments to test and debug software before deploying it on actual hardware. Simulation tools create virtual models of hardware systems, while emulation tools replicate the actual hardware behavior using real hardware components. These tools offer several advantages, including reducing development time, minimizing hardware costs, and enhancing software reliability.
+O desenvolvimento de sistemas embarcados geralmente envolve simular ou emular ambientes de hardware para testar e depurar software antes de implantá-lo no hardware real. Ferramentas de simulação criam modelos virtuais de sistemas de hardware, enquanto ferramentas de emulação replicam o comportamento real do hardware usando componentes de hardware reais. Essas ferramentas oferecem várias vantagens, incluindo redução do tempo de desenvolvimento, minimização de custos de hardware e aumento da confiabilidade do software.
 
-- [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
-- [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
-- [🔗👶 Digital logic designer and circuit simulator designed for educational purposes](https://github.com/hneemann/Digital)
+- [🔗👶 Wokwi - Simulador Online ESP32, STM32, Arduino](https://wokwi.com/)
+- [🔗👶 Simulador de circuito SimulIDE](https://simulide.com/)
+- [🔗👶 Logi digitalc designer e simulador de circuito projetado para fins educacionais](https://github.com/hneemann/Digital)
 
 #### 🔵 QEMU
 
-- [🔗 QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
-- [📝 Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
-- [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
-- [📝 Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
+- [🔗 Documentação do QEMU](https://www.qemu.org/docs/master/index.html)
+- [📝 Executando código AVR no QEMU - Um guia de início rápido para acelerar o desenvolvimento de firmware AVR](https://yeah.nah.nz/embedded/qemu-avr/)
+- [📝 Simulação QEMU - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
+- [📝 Emulando um Raspberry Pi em QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
 
 #### 🔵 Renode
 
-- [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
-- [🔗 Renode - Documentation](https://renode.readthedocs.io/en/latest/)
-- [🔗 Renode - Official Tutorials](https://renode.io/tutorials/)
-- [📝 Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
-- [📝 A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
-- [🎞️ Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
+- [🔗 Renode - Repositório GitHub](https://github.com/renode/renode)
+- [🔗 Renode - Documentação](https://renode.readthedocs.io/en/latest/)
+- [🔗 Renode - Tutoriais oficiais](https://renode.io/tutorials/)
+- [📝 Emulação de MCU Cortex-M com Renode](https://interrupt.memfault.com/blog/intro-to-renode)
+- [📝 Um guia simples para começar a usar o renode](https://github.com/tarciszera/renode_guide)
+- [🎞️ Usando fluxo de trabalho baseado em CI com Renode ao trazer o TensorFlow Lite para o Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
 
 _________________
 
-### ✳️ Sensors & Actuators
+### ✳️ Sensores e atuadores
 
-Sensors and actuators are the eyes and hands of embedded systems. They are responsible for gathering information about the environment and taking actions based on that information. Sensors convert physical phenomena, such as temperature, light, or sound, into electrical signals that can be processed by the embedded system. Actuators, on the other hand, convert electrical signals into physical actions, such as controlling the speed of a motor or opening and closing a valve.
+Sensores e atuadores são os olhos e as mãos dos sistemas embarcados. Eles são responsáveis ​​por coletar informações sobre o ambiente e tomar ações com base nessas informações. Os sensores convertem fenômenos físicos, como temperatura, luz ou som, em sinais elétricos que podem ser processados ​​pelo sistema embarcado. Os atuadores, por outro lado, convertem sinais elétricos em ações físicas, como controlar a velocidade de um motor ou abrir e fechar uma válvula.
 
-- [🎞️💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
+- [🎞️💎 Coursera - Especialização em Sensores e Motores Incorporados](https://www.coursera.org/specializations/embedding-sensors-motors)
 
-#### 🔵 Sensors
+#### 🔵 Sensores
 
-- [📝 Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
+- [📝 Calibrando Sensores](https://learn.adafruit.com/calibrating-sensors)
 - [📝 DHT11 vs DHT22 vs LM35 vs DS18B20 vs BME280 vs BMP180](https://randomnerdtutorials.com/dht11-vs-dht22-vs-lm35-vs-ds18b20-vs-bme280-vs-bmp180/)
-- [🎞️ Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
-- [🎞️ GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
-- [🎞️ Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
-- [📝 Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
-- [📝 Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
-- [🎞️ Electronic Basics #15: Temperature Measurement (Part 1) || NTC, PT100, Wheatstone Bridge](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
+- [🎞️ Introdução ao STM32 e Nucleo Parte 2: Como usar I2C para ler o sensor de temperatura TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
+- [🎞️ Módulo GPS e STM32 || NEO 6M || Obter coordenadas, data, hora, velocidade, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
+- [🎞️ Interface MPU6050/GY-521 com STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
+- [📝 Arduino com sensor de movimento PIR](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
+- [📝 Guia completo para sensor ultrassônico HC-SR04 com Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
+- [🎞️ Noções básicas de eletrônica nº 15: Medição de temperatura (parte 1) || NTC, PT100, Ponte de Wheatstone](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
 
-#### 🔵 Actuators
+#### 🔵 Atuadores
 
-- [📝 Adafruit Motor Selection Guide](https://learn.adafruit.com/adafruit-motor-selection-guide)
-- [🎞️ DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
-- [📝 All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
-- [📝 Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
-- [🎞️ Electronic Basics #25: Servos and how to use them](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
-- [🎞️ Electronic Basics #24: Stepper Motors and how to use them](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
-- [🎞️ Electronic Basics #18: DC & Brushless DC Motor + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
+- [📝 Guia de seleção de motor Adafruit](https://learn.adafruit.com/adafruit-motor-selection-guide)
+- [🎞️ Controlador de velocidade de motor DC PWM com potenciômetro usando STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
+- [📝 Tudo sobre motores de passo](https://learn.adafruit.com/all-about-stepper-motors)
+- [📝 Usando servos com CircuitPython e Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
+- [🎞️ Noções básicas de eletrônica #25: Servos e como usá-los](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
+- [🎞️ Noções básicas de eletrônica #24: Motores de passo e como usá-los](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
+- [🎞️ Noções básicas de eletrônica #18: Motor CC e CC sem escovas + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
 
 _________________
 
-### ✳️ Digital Signal Processing
+### ✳️ Processamento de sinal digital
 
-Digital signal processing (DSP) is a branch of engineering that deals with the processing of digital signals. It is used in a wide variety of applications, including embedded systems, communication systems, and multimedia systems. DSP algorithms are often implemented in hardware using application-specific integrated circuits (ASICs) or field-programmable gate arrays (FPGAs).
+O processamento de sinal digital (DSP) é um ramo da engenharia que lida com o processamento de sinais digitais. É usado em uma ampla variedade de aplicações, incluindo sistemas embarcados, sistemas de comunicação e sistemas multimídia. Algoritmos DSP são frequentemente implementados em hardware usando circuitos integrados específicos de aplicação (ASICs) ou matrizes de portas programáveis ​​em campo (FPGAs).
 
-#### 🔵 DSP Basics & Filter Design
+#### 🔵 Noções básicas de DSP e design de filtros
 
-- [📘💎 The Scientist and Engineer's Guide to Digital Signal Processing - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
-- [🎞️ FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
-- [🎞️ IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
-- [🎞️ Digital Signal Processing (ECSE-4530) Lectures, Fall 2014 (YouTube Playlist)](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
-- [🎞️ Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
-- [📘 Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
-- [📘 Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
-- [📘 Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
-- [📘💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
+- [📘💎 Guia do cientista e engenheiro para processamento de sinais digitais - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
+- [🎞️ Design de filtro FIR e implementação de software - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
+- [🎞️ Filtros IIR - Teoria e implementação (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
+- [🎞️ Aulas sobre processamento de sinais digitais (ECSE-4530), outono de 2014 (YouTube Playlist)](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
+- [🎞️ Udemy – Processamento de sinal digital (DSP) do zero em C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
+- [📘 Processamento de sinal digital em tempo real: fundamentos, implementações e aplicações - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
+- [📘 Processamento de sinal digital em tempo real do MATLAB para C com os DSPs TMS320C6x - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
+- [📘 Esboço de sinais e sistemas de Schaum - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
+- [📘💎 Processamento de sinal digital - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
 
-#### 🔵 Discrete Fourier Transform / FFT
+#### 🔵 Transformada discreta de Fourier / FFT
 
-- [🎞️ Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
-- [🎞️ The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
-- [🎞️ The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
-- [🎞️ STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
+- [🎞️ Transformada discreta de Fourier - passo a passo simples](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
+- [🎞️ Transformada rápida de Fourier (FFT): o algoritmo mais engenhoso de todos os tempos?](https://youtu.be/h7apO7q16V0)
+- [🎞️ Algoritmo FFT - passo a passo simples](https://www.youtube.com/watch?v=htCj9exbGo0)
+- [🎞️ Transformada rápida de Fourier STM32 (CMSIS DSP FFT) - Laboratório de Phil nº 111](https://youtu.be/d1KvgOwWvkM)
 
-### ✳️ Control Theory
+### ✳️ Teoria de controle
 
-- [🎞️ Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
-- [🎞️ Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
-- [🎞️💎 Brian Douglas' Control Systems Lectures (YouTube Channel)](https://www.youtube.com/@BrianBDouglas)
-- [📘💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
+- [🎞️ Compreendendo sistemas de controle (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
+- [🎞️ Sistemas de controle - CircuitBread (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
+- [🎞️💎 Palestras de sistemas de controle de Brian Douglas (canal do YouTube)](https://www.youtube.com/@BrianBDouglas)
+- [📘💎 Engenharia de sistemas de controle - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
 - [📘💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
 
-#### 🔵 PID Controller
+#### 🔵 Controlador PID
 
-- [🎞️👶 What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
-- [🎞️👶 How to Tune a PID Controller for an Inverted Pendulum | DigiKey](https://www.youtube.com/watch?v=hRnofMxEf3Q)
-- [🎞️ PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
-- [🎞️ Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
-- [🎞️ PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
+- [🎞️👶 O que é um controlador PID? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
+- [🎞️👶 Como ajustar um controlador PID para um pêndulo invertido | DigiKey](https://www.youtube.com/watch?v=hRnofMxEf3Q)
+- [🎞️ Controlador PID explicado](https://www.youtube.com/watch?v=fv6dLTEvl74)
+- [🎞️ Entendendo o controle PID (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
+- [🎞️ Implementação do controlador PID em software - Laboratório de Phil nº 6](https://www.youtube.com/watch?v=zOByx3Izf5U)
 
 #### 🔵 MATLAB / Simulink
 
-- [🎞️ MATLAB Tutorials: Getting Started with MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
-- [🎞️ Getting Started with Simulink (YouTube Playlist)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
-- [🎞️ Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
+- [🎞️ Tutoriais do MATLAB: Introdução ao MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
+- [🎞️ Introdução ao Simulink (Playlist do YouTube)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
+- [🎞️ Udemy – Bíblia MATLAB/SIMULINK|Vá do zero ao herói!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
 _________________
 
-### ✳️ Operating Systems
+### ✳️ Sistemas operacionais
 
-Embedded systems can be programmed with either an operating system (OS) or directly on the hardware, known as bare-metal programming. Each approach has its own advantages and disadvantages. Embedded operating systems provide a layer of abstraction between the hardware and the application code, offering benefits like resource management, task scheduling, error handling, and communication capabilities. However, they add overhead and may not be suitable for memory-constrained applications.
+Os sistemas embarcados podem ser programados com um sistema operacional (SO) ou diretamente no hardware, conhecido como programação bare-metal. Cada abordagem tem suas próprias vantagens e desvantagens. Os sistemas operacionais embarcados fornecem uma camada de abstração entre o hardware e o código do aplicativo, oferecendo benefícios como gerenciamento de recursos, agendamento de tarefas, tratamento de erros e recursos de comunicação. No entanto, eles adicionam sobrecarga e podem não ser adequados para aplicativos com restrição de memória.
 
-#### 🔵 Operating System Fundamentals
+#### 🔵 Fundamentos do sistema operacional
 
-- [📝👶 Putting the “You” in CPU](https://cpu.land/)
-- [📘👶 The little book about OS development](https://littleosbook.github.io/)
-- [📘👶 Operating Systems: From 0 to 1](https://github.com/tuhdo/os01/blob/master/Operating_Systems_From_0_to_1.pdf)
-- [📘💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [📘💎 Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
-- [📝 Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
-- [🔗 Operating System development tutorials in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
+- [📝👶 Colocando o “Você” na CPU](https://cpu.land/)
+- [📘👶 O pequeno livro sobre desenvolvimento de SO](https://littleosbook.github.io/)
+- [📘👶 Sistemas operacionais: de 0 a 1](https://github.com/tuhdo/os01/blob/master/Operating_Systems_From_0_to_1.pdf)
+- [📘💎 Sistemas operacionais: três peças fáceis - Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [📘💎 Sistemas operacionais modernos - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
+- [📝 Escrevendo um SO em Rust - blog de Philipp Oppermann](https://os.phil-opp.com/)
+- [🔗 Tutoriais de desenvolvimento de sistema operacional em Rust no Raspberry Pi](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
 
-#### 🔵 Real-Time Operating Systems
+#### 🔵 Sistemas operacionais em tempo real
 
-Real-time operating systems (RTOS) are specialized operating systems designed to meet strict timing deadlines. They are used in embedded systems where timing is critical, such as avionics, robotics, and medical devices. RTOSs provide a deterministic environment in which tasks can be executed with predictable timing. This ensures that critical tasks are always executed on time, even in the presence of interrupts and other disruptions.
+Sistemas operacionais em tempo real (RTOS) são sistemas operacionais especializados projetados para atender a prazos rígidos de tempo. Eles são usados ​​em sistemas embarcados onde o tempo é crítico, como aviônicos, robótica e dispositivos médicos. RTOSs fornecem um ambiente determinístico no qual as tarefas podem ser executadas com tempo previsível. Isso garante que tarefas críticas sejam sempre executadas no prazo, mesmo na presença de interrupções e outras interrupções.
 
-##### 🔶 RTOS Basics
+##### 🔶 Noções básicas sobre RTOS
 
-- [📝 Bare-metal and RTOS Based Embedded Systems](https://microcontrollerslab.com/difference-bare-metal-and-rtos-based-embedded-systems/)
-- [📝 RTOS vs. Bare Metal: Navigating Performance, Complexity, and Efficiency](https://weston-embedded.com/support/media-articles/119-rtos-vs-bare-metal-navigating-performance-complexity-and-efficiency)
-- [📝 The Pros and Cons of RTOS vs Bare Metal: Which Will You Choose?](https://medium.com/@lanceharvieruntime/the-pros-and-cons-of-rtos-vs-bare-metal-which-will-you-choose-756e33ba6df7)
-- [📝 FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
-- [🔗 Real-Time Systems Concepts](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
-- [🔗 RTOS Fundamentals](https://www.freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/01-RTOS-fundamentals)
-- [📝 A Simple Scheduler via an Interrupt-driven Actor Model](https://interrupt.memfault.com/blog/hardware-actor-scheduler)
-- [📝 ARM Cortex-M RTOS Context Switching](https://interrupt.memfault.com/blog/cortex-m-rtos-context-switching)
-- [🎞️ RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
-- [🎞️ Beyond the RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
+- [📝 Sistemas embarcados baseados em bare-metal e RTOS](https://microcontrollerslab.com/difference-bare-metal-and-rtos-based-embedded-systems/)
+- [📝 RTOS vs. Bare Metal: navegando pelo desempenho, complexidade e eficiência](https://weston-embedded.com/support/media-articles/119-rtos-vs-bare-metal-navigating-performance-complexity-and-efficiency)
+- [📝 Os prós e contras de RTOS vs Bare Metal: qual você escolherá?](https://medium.com/@lanceharvieruntime/the-pros-and-cons-of-rtos-vs-bare-metal-which-will-you-choose-756e33ba6df7)
+- [📝 FreeRTOS vs Linux para sistemas embarcados](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
+- [🔗 Conceitos de sistemas em tempo real](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
+- [🔗 Fundamentos do RTOS](https://www.freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/01-RTOS-fundamentals)
+- [📝 Um agendador simples por meio de um ator controlado por interrupção Modelo](https://interrupt.memfault.com/blog/hardware-actor-scheduler)
+- [📝 Troca de contexto ARM Cortex-M RTOS](https://interrupt.memfault.com/blog/cortex-m-rtos-context-switching)
+- [🎞️ RTOS (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
+- [🎞️ Além do RTOS (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
 
 ##### 🔶 FreeRTOS
 
-- [🔗 FreeRTOS - Market leading RTOS](https://www.freertos.org)
-- [🎞️👶 Introduction to RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
-- [📘💎 Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
-- [🎞️👶 Microchip University - FreeRTOS Simplified: A Beginner's Guide to Develop and Debug FreeRTOS Applications](https://mu.microchip.com/freertos-simplified)
-- [🎞️ Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
-- [📘 Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
-- [📘 Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
-- [🔗 SafeRTOS - Safety Critical Real-Time OS](https://www.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.html)
+- [🔗 FreeRTOS - Líder de mercado RTOS](https://www.freertos.org)
+- [🎞️👶 Introdução ao RTOS (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+- [📘💎 Dominando o kernel em tempo real do FreeRTOS - um guia tutorial prático](https://www.freertos.org/Documentation/RTOS_book.html)
+- [🎞️👶 Microchip University - FreeRTOS simplificado: um guia para iniciantes para desenvolver e depurar aplicativos FreeRTOS](https://mu.microchip.com/freertos-simplified)
+- [🎞️ Introdução ao STM32 e Nucleo Parte 3: FreeRTOS - Como executar vários threads com CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
+- [📘 Hands-On RTOS com microcontroladores: construindo sistemas embarcados em tempo real usando FreeRTOS, MCUs STM32 e ferramentas de depuração SEGGER - Brian Amos](https://a.co/d/11MSPlo)
+- [📘 Começando STM32: desenvolvendo com FreeRTOS, libopencm3 e GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
+- [🔗 SafeRTOS - Sistema operacional em tempo real crítico para segurança](https://www.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.html)
 
 ##### 🔶 Zephyr
 
 - [🔗 Zephyr® Project](https://www.zephyrproject.org/)
-- [📝💎 Getting Started With Zephyr](https://www.embeddedrelated.com/showarticle/1505.php)
-- [🔗 Zephyr: Tutorial for Beginners](https://maksimdrachov.github.io/zephyr-rtos-tutorial/)
-- [📝 Why We Moved from FreeRTOS to Zephyr RTOS](https://www.zephyrproject.org/why-we-moved-from-freertos-to-zephyr-rtos/)
+- [📝💎 Introdução ao Zephyr](https://www.embeddedrelated.com/showarticle/1505.php)
+- [🔗 Zephyr: Tutorial para iniciantes](https://maksimdrachov.github.io/zephyr-rtos-tutorial/)
+- [📝 Por que mudamos do FreeRTOS para o Zephyr RTOS](https://www.zephyrproject.org/why-we-moved-from-freertos-to-zephyr-rtos/)
 - [🔗 nRF Connect SDK](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/)
-- [🎞️ ESP32 on Zephyr OS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
+- [🎞️ ESP32 no Zephyr OS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
 
 ##### 🔶 μC/OS / Micriμm OS
 
 - [🔗 Micriμm OS](https://www.silabs.com/developers/micrium)
-- [🔗 µC/OS-III Documentation](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview)
-- [📘 µC/OS-III Books](https://weston-embedded.com/micrium-books)
-- [📘💎 µC/OS-II Documentation (Previously published as a book titled "MicroC/OS-II: The Real-Time Kernel")](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
+- [🔗 Documentação do µC/OS-III](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview)
+- [📘 Livros do µC/OS-III](https://weston-embedded.com/micrium-books)
+- [📘💎 Documentação do µC/OS-II (publicado anteriormente como um livro intitulado "MicroC/OS-II: The Real-Time Kernel")](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
 
 ##### 🔶 NuttX
 
 - [🔗 NuttX - The Apache Software Foundation](https://nuttx.apache.org/)
-- [🔗 NuttX Documentation](https://nuttx.apache.org/docs/latest/)
-- [🎞️ Getting Started to NuttX (YouTube Playlist)](https://www.youtube.com/playlist?list=PLd73yQk5Fd8JEsVD-lhwYRQKVu6glfDa8)
+- [🔗 Documentação do NuttX](https://nuttx.apache.org/docs/latest/)
+- [🎞️ Introdução ao NuttX (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLd73yQk5Fd8JEsVD-lhwYRQKVu6glfDa8)
 
-##### 🔶 RT-Thread
+##### 🔶 Tópico RT
 
-- [🔗 RT-Thread | An Open Source Embedded Real-time Operating System](https://www.rt-thread.io/)
-- [🔗 RT-Thread document center](https://www.rt-thread.io/document/site/)
-- [🎞️ RT-Thread Beginners Guide (YouTube Playlist)](https://youtube.com/playlist?list=PLXUV89C_M3G5KVw2IerI-pqApdSM_IaZo)
+- [🔗 Tópico RT | Um sistema operacional em tempo real incorporado de código aberto](https://www.rt-thread.io/)
+- [🔗 Centro de documentos RT-Thread](https://www.rt-thread.io/document/site/)
+- [🎞️ Guia para iniciantes do RT-Thread (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLXUV89C_M3G5KVw2IerI-pqApdSM_IaZo)
 
 ##### 🔶 Mbed OS
 
 - [🔗 Mbed OS](https://os.mbed.com/mbed-os/)
-- [🔗 Mbed OS Documentation](https://os.mbed.com/docs/mbed-os/)
+- [🔗 Documentação do Mbed OS](https://os.mbed.com/docs/mbed-os/)
 
 ##### 🔶 QNX
 
-- [🔗 BlackBerry QNX: Embedded OS, Support, and Services](https://blackberry.qnx.com/en)
-- [🔗 QNX Product Documentation](https://www.qnx.com/developers/docs/index.html)
+- [🔗 BlackBerry QNX: sistema operacional incorporado, suporte e Serviços](https://blackberry.qnx.com/en)
+- [🔗 Documentação do produto QNX](https://www.qnx.com/developers/docs/index.html)
 
 ##### 🔶 VxWorks
 
-- [🔗 VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/vxworks)
-- [🔗 VxWorks Documentation](https://docs.windriver.com/category/os_vxworks?labelkey=os_vxworks)
-- [🎞️ VxWORKS-RTOS - Kumar M (YouTube Playlist)](https://www.youtube.com/playlist?list=PLyp1I7W35-q34sYWBlBg8xgoqsizZ57P7)
+- [🔗 VxWorks | RTOS líder do setor para sistemas embarcados](https://www.windriver.com/products/vxworks)
+- [🔗 Documentação do VxWorks](https://docs.windriver.com/category/os_vxworks?labelkey=os_vxworks)
+- [🎞️ VxWORKS-RTOS - Kumar M (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLyp1I7W35-q34sYWBlBg8xgoqsizZ57P7)
 
 ##### 🔶 Azure RTOS (ThreadX)
 
-- [🔗 Azure RTOS - Making embedded IoT development and connectivity easy](https://azure.microsoft.com/en-us/services/rtos/)
-- [🔗 Microsoft Azure RTOS documentation](https://learn.microsoft.com/en-us/azure/rtos/)
+- [🔗 Azure RTOS - Facilitando o desenvolvimento e a conectividade de IoT embarcada](https://azure.microsoft.com/en-us/services/rtos/)
+- [🔗 Microsoft Azure RTOS documentação](https://learn.microsoft.com/en-us/azure/rtos/)
 - [🔗 Azure RTOS ThreadX](https://github.com/azure-rtos/threadx)
 
-#### 🔵 Embedded Linux
+#### 🔵 Linux embarcado
 
-Embedded Linux is a specialized version of the Linux operating system tailored for embedded systems. It's designed to operate on devices with resource constraints, such as limited memory, processing power, and power consumption.
+O Linux embarcado é uma versão especializada do sistema operacional Linux, adaptada para sistemas embarcados. Ele foi projetado para operar em dispositivos com restrições de recursos, como memória limitada, poder de processamento e consumo de energia.
 
-- [📝 What Is Embedded Linux?](https://www.windriver.com/solutions/learning/embedded-linux)
-- [📝 FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
-- [🎞️👶 Introduction to Embedded Linux (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
-- [📝 Mastering Embedded Linux Series - George Hilliard's blog](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
+- [📝 O que é Linux embarcado?](https://www.windriver.com/solutions/learning/embedded-linux)
+- [📝 FreeRTOS vs Linux para sistemas embarcados](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
+- [🎞️👶 Introduçãoion para Linux embarcado (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
+- [📝 Série Mastering Embedded Linux - blog de George Hilliard](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
 - [📘💎 Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
-- [🎞️💎 Coursera - Advanced Embedded Linux Development Specialization](https://www.coursera.org/specializations/advanced-embedded-linux-development)
-- [🔗 Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
+- [🎞️💎 Coursera - Especialização avançada em desenvolvimento de Linux embarcado](https://www.coursera.org/specializations/advanced-embedded-linux-development)
+- [🔗 Linux do zero - instruções passo a passo para construir seu próprio sistema Linux personalizado](https://www.linuxfromscratch.org/)
 - [🔗 Automotive Grade Linux (AGL)](https://docs.automotivelinux.org/)
-- [🔗 Real Time Linux and `PREEMPT_RT` Patch](https://wiki.linuxfoundation.org/realtime/start)
+- [🔗 Real Time Linux e patch `PREEMPT_RT`](https://wiki.linuxfoundation.org/realtime/start)
 - [🔗 Android Open Source Project](https://source.android.com)
 - [🔗 Android Automotive](https://source.android.com/docs/automotive)
 
-##### 🔶 Linux Kernel
+##### 🔶 Kernel Linux
 
-- [📘👶 Linux Kernel Development - Robert Love](https://www.oreilly.com/library/view/linux-kernel-development/9780768696974/)
-- [📘💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
-- [📘 How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
+- [📘👶 Desenvolvimento do Kernel Linux - Robert Love](https://www.oreilly.com/library/view/linux-kernel-development/9780768696974/)
+- [📘💎 A Interface de Programação Linux - Michael Kerrisk](https://man7.org/tlpi/)
+- [📘 Como o Linux funciona - Brian Ward](https://nostarch.com/howlinuxworks3)
 
-##### 🔶 Linux Device Drivers
+##### 🔶 Drivers de dispositivos Linux
 
-- [📝👶 Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
-- [📘💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
-- [📘 The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
-- [📘 Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
-- [📝 Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
+- [📝👶 Escrevendo um módulo simples do kernel Linux](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
+- [📘💎 Drivers de dispositivos Linux - Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
+- [📘 Guia de programação do módulo do kernel Linux](https://sysprog21.github.io/lkmpg/)
+- [📘 Dominando o desenvolvimento de drivers de dispositivos Linux - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
+- [📝 Kernel Driver com Rust em 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
 
 ##### 🔶 U-Boot
 
-- [🔗 The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
+- [🔗 A documentação do U-Boot](https://u-boot.readthedocs.io/en/latest/)
 - [🔗 Barebox](https://www.barebox.org/doc/latest/index.html)
 
 ##### 🔶 Buildroot
 
-- [🔗 Buildroot Documentation](https://buildroot.org/docs.html)
-- [🎞️ Introduction to Embedded Linux Part 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
-- [📝 Building Tiny Raspberry Pi Linux Images With Buildroot](https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html)
+- [🔗 Documentação do Buildroot](https://buildroot.org/docs.html)
+- [🎞️ Introdução ao Linux embarcado Parte 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
+- [📝 Construindo Imagens Linux Pequenas do Raspberry Pi com Buildroot](https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html)
 
 ##### 🔶 Yocto
 
 - [🔗 Yocto Project Quick Build](https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html)
-- [🔗💎 Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
-- [🎞️ Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
-- [📝 Build Linux Image for Raspberry Pi board using Yocto Project](https://tutorialadda.com/yocto/create-your-own-linux-image-for-the-raspberry-pi-board-using-yocto-project)
-- [🎞️ Yocto Project Tutorial Series (Basic to Advance) (YouTube Playlist)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
-- [🎞️ Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
-- [📘💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
-- [📘 Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
-- [📘 Bootlin Embedded Linux, Kernel, drivers, Yocto, Buildroot and Graphics Training](https://bootlin.com/training/)
+- [🔗💎 Documentação do Projeto Yocto](https://docs.yoctoproject.org/index.html)
+- [🎞️ Introdução ao Linux Embarcado Parte 2 - Projeto Yocto | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
+- [📝 Crie uma imagem Linux para a placa Raspberry Pi usando o Yocto Project](https://tutorialadda.com/yocto/create-your-own-linux-image-for-the-raspberry-pi-board-using-yocto-project)
+- [🎞️ Série de tutoriais do Yocto Project (do básico ao avançado) (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
+- [🎞️ Udemy – Linux embarcado usando Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
+- [📘💎 Linux embarcado Sistemas com o Projeto Yocto - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
+- [📘 Desenvolvimento Linux embarcado usando o livro de receitas do Projeto Yocto - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
+- [📘 Bootlin Linux embarcado, kernel, drivers, Yocto, Buildroot e treinamento gráfico](https://bootlin.com/training/)
 
-##### 🔶 Multithreading & Parallel Processing
+##### 🔶 Multithreading e processamento paralelo
 
-- [📝 Threading/Concurrency vs Parallelism](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
-- [📝 Multi-threading and Parallel Programming](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
-- [📝 Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
-- [📘💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
-- [📘 C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
+- [📝 Threading/Concorrência vs. Paralelismo](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
+- [📝 Multithreading e programação paralela](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
+- [📝 Multitarefa vs Multithreading vs Multiprocessamento](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
+- [📘💎 Programação com threads POSIX - David Butenhof](https://a.co/d/9R6DswF)
+- [📘 Concorrência C++ em ação - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
-##### 🔶 High-Performance Computing (HPC)
+##### 🔶 Computação de alto desempenho (HPC)
 
-- [🔗 Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
-- [🎞️ Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
-- [🔗 OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
-- [🔗 CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+- [🔗 Programação paralela e otimização de desempenho com OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
+- [🎞️ Introdução ao OpenMP - Tim Mattson (Intel) (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2uwnoEG)
+- [🔗 Tutoriais OpenCL](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
+- [🔗 Programação CUDA C++ Guia](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
 
-##### 🔶 Inter-Process Communication (IPC)
+##### 🔶 Comunicação entre processos (IPC)
 
-- [📝 Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
-- [📝 What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
-- [🎞️ Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
-- [📘 Extreme C -  Kamran Amini | Chapter 19: Single-Host IPC and Sockets](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
-- [🎞️ Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
-- [📝 D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
+- [📝 Comunicação entre processos (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
+- [📝 O que é comunicação entre processos no Linux?](https://www.scaler.com/topics/ipc-in-linux/)
+- [🎞️ Udemy – Linux Inter Process Communication (IPC) do zero em C](https://www.udemy.com/course/linuxipc/)
+- [📘 Extreme C - Kamran Amini | Capítulo 19: Single-Host IPC e Sockets](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
+- [🎞️ Udemy – Multi-Threading e IPC com Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
+- [📝 Tutorial D-Bus](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
 
-##### 🔶 Qt Framework
+##### 🔶 Framework Qt
 
-- [🔗 Qt Documentation](https://doc.qt.io/)
+- [🔗 Documentação Qt](https://doc.qt.io/)
 
 _________________
 
-### ✳️ Debugging
+### ✳️ Depuração
 
-Debugging embedded systems involves identifying and resolving software defects and hardware malfunctions. Various techniques are employed to pinpoint the root causes of issues, such as static code analysis, dynamic analysis, simulation and emulation, in-circuit debugging, and hardware debugging.
+A depuração de sistemas embarcados envolve identificar e resolver defeitos de software e mau funcionamento de hardware. Várias técnicas são empregadas para identificar as causas raiz dos problemas, como análise de código estático, análise dinâmica, simulação e emulação, depuração em circuito e depuração de hardware.
 
-- [📝 Using Asserts in Embedded Systems](https://interrupt.memfault.com/blog/asserts-in-embedded-systems)
+- [📝 Usando Asserts em Sistemas Embarcados](https://interrupt.memfault.com/blog/asserts-in-embedded-systems)
 
 #### 🔵 JTAG / SWD
 
-JTAG and SWD (Serial Wire Debug) are two popular interface protocols used for debugging and programming embedded systems. JTAG is a more general-purpose protocol that can be used to debug and program a wider range of devices, while SWD is a simpler and more compact protocol that is specifically designed for ARM microcontrollers.
+JTAG e SWD (Serial Wire Debug) são dois protocolos de interface populares usados ​​para depuração e programação de sistemas embarcados. JTAG é um protocolo de propósito mais geral que pode ser usado para depurar e programar uma gama mais ampla de dispositivos, enquanto SWD é um protocolo mais simples e compacto que é projetado especificamente para microcontroladores ARM.
 
-- [📝 A Deep Dive into ARM Cortex-M Debug Interfaces](https://interrupt.memfault.com/blog/a-deep-dive-into-arm-cortex-m-debug-interfaces)
-- [🔗 Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html)
-- [🎞️ STM32 + SWD + ST-Link + CubeIDE | Debugging on Custom Hardware Tutorial - Phil's Lab #4](https://www.youtube.com/watch?v=qMUzLU636s8)
-- [📝 Diving into JTAG protocol. Part 1 — Overview](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-1-overview-fbdc428d3a16)
-- [📝 Diving into JTAG protocol. Part 2 — Debugging](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-2-debugging-56a566db3cf8)
-- [📝 Diving into JTAG protocol. Part 3 — Boundary Scan](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-part-3-boundary-scan-17f9975ecc59)
+- [📝 Um mergulho profundo nas interfaces de depuração ARM Cortex-M](https://interrupt.memfault.com/blog/a-deep-dive-into-arm-cortex-m-debug-interfaces)
+- [🔗 Guia: conectando seu depurador](https://stm32-base.org/guides/connecting-your-debugger.html)
+- [🎞️ STM32 + SWD + ST-Link + CubeIDE | Tutorial de depuração em hardware personalizado - Laboratório de Phil nº 4](https://www.youtube.com/watch?v=qMUzLU636s8)
+- [📝 Mergulhando no protocolo JTAG. Parte 1 — Visão geral](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-1-overview-fbdc428d3a16)
+- [📝 Mergulhando no protocolo JTAG. Parte 2 — Depuração](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-2-debugging-56a566db3cf8)
+- [📝 Mergulhando no protocolo JTAG. Parte 3 — Boundary Scan](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-part-3-boundary-scan-17f9975ecc59)
 
 #### 🔵 GDB
 
-GDB (GNU Debugger) is a powerful and versatile debugger for source-level and machine-level debugging. It supports a wide range of programming languages, including C, C++, Objective-C, Java, and Rust. GDB is a free and open-source software tool that is widely used by developers and researchers.
+GDB (GNU Debugger) é um depurador poderoso e versátil para depuração em nível de fonte e de máquina. Ele suporta uma ampla gama de linguagens de programação, incluindo C, C++, Objective-C, Java e Rust. GDB é uma ferramenta de software livre e de código aberto amplamente usada por desenvolvedores e pesquisadores.
 
-- [📝 Advanced GDB Usage](https://interrupt.memfault.com/blog/advanced-gdb)
-- [📝 How do breakpoints even work?](https://interrupt.memfault.com/blog/cortex-m-breakpoints)
-- [🔗 GNU GDB Debugger Command Cheat Sheet](http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
-- [🔗 gdbgui - A browser-based frontend to gdb (gnu debugger)](https://www.gdbgui.com/)
-- [🎞️ everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
-- [🎞️ GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
-- [📝 Introduction to ARM Semihosting](https://interrupt.memfault.com/blog/arm-semihosting)
+- [📝 Uso avançado do GDB](https://interrupt.memfault.com/blog/advanced-gdb)
+- [📝 Como os pontos de interrupção funcionam?](https://interrupt.memfault.com/blog/cortex-m-breakpoints)
+- [🔗 Folha de dicas de comando do depurador GNU GDB](http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
+- [🔗 gdbgui - Um frontend baseado em navegador para o gdb (depurador gnu)](https://www.gdbgui.com/)
+- [🎞️ todos precisam parar de usar a depuração de impressão (faça ISSO em vez disso)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
+- [🎞️ GDB é REALMENTE fácil! Encontre bugs no seu código com apenas alguns comandos](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
+- [📝 Introdução ao ARM Semihosting](https://interrupt.memfault.com/blog/arm-semihosting)
 
 #### 🔵 OpenOCD
 
-OpenOCD (Open On-Chip Debugger) is an open-source software tool that provides a powerful and versatile platform for debugging and programming embedded systems. It serves as an interface between a hardware debug adapter (HDA) and a debugger, such as GNU Debugger (GDB), enabling developers to interact with the target microcontroller or microprocessor. OpenOCD supports a wide range of hardware platforms and provides a comprehensive set of features for hardware debugging, programming, and boundary-scan testing.
+OpenOCD (Open On-Chip Debugger) é uma ferramenta de software de código aberto que fornece uma plataforma poderosa e versátil para depuração e programação de sistemas embarcados. Ele serve como uma interface entre um adaptador de depuração de hardware (HDA) e um depurador, como o GNU Debugger (GDB), permitindo que os desenvolvedores interajam com o microcontrolador ou microprocessador de destino. O OpenOCD oferece suporte a uma ampla variedade de plataformas de hardware e fornece um conjunto abrangente de recursos para depuração de hardware, programação e testes de varredura de limites.
 
-- [🔗 OpenOCD - GitHub repository](https://github.com/openocd-org/openocd)
-- [🎞️ This Is 100% How You Should Be Debugging | How to Use OpenOCD to Debug Embedded Software with GDB](https://www.youtube.com/watch?v=_1u7IOnivnM)
+- [🔗 OpenOCD - repositório GitHub](https://github.com/openocd-org/openocd)
+- [🎞️ Este é 100% como você deve depurar | Como usar o OpenOCD para depurar software embarcado com GDB](https://www.youtube.com/watch?v=_1u7IOnivnM)
 
 _________________
 
-### ✳️ Build System
+### ✳️ Sistema de compilação
 
-Build systems automate the process of compiling and linking source code into executable programs. They are essential tools for software development, as they can help to improve the efficiency and consistency of the build process. Popular build systems include Make, and CMake.
+Os sistemas de compilação automatizam o processo de compilação e vinculação de código-fonte em programas executáveis. Eles são ferramentas essenciais para o desenvolvimento de software, pois podem ajudar a melhorar a eficiência e a consistência do processo de compilação. Os sistemas de compilação populares incluem Make e CMake.
 
-#### 🔵 Compilers / GCC
+#### 🔵 Compiladores / GCC
 
-GCC (the GNU Compiler Collection) is a free and open-source compiler system that can compile programs for many different programming languages, including C, C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, portability, performance, and large community. On the other hand proprietary compilers like Keil and IAR offer toolchain support, target-specific optimizations, and customer support, which may be preferred for specific projects.
+O GCC (GNU Compiler Collection) é um sistema de compilador gratuito e de código aberto que pode compilar programas para muitas linguagens de programação diferentes, incluindo C, C++, Objective-C, Fortran, Ada e Go. O GCC é uma escolha popular para desenvolvimento de sistemas embarcados devido à sua natureza de código aberto, maturidade, estabilidade, portabilidade, desempenho e grande comunidade. Por outro lado, compiladores proprietários como Keil e IAR oferecem suporte a cadeia de ferramentas, otimizações específicas de destino e suporte ao cliente, o que pode ser preferível para projetos específicos.
 
-- [📝 GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
-- [📝 The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
-- [📝 From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
-- [📝 Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
-- [🔗 Keil MDK & µVision](https://www.keil.com/)
+- [📝 GCC e Make - Compilando, vinculando e construindo aplicativos C/C++](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+- [📝 Os melhores e piores sinalizadores do compilador GCC para embed](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
+- [📝 Do zero ao main(): desmistificando scripts de linker de firmware](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
+- [📝 Bare Metal - Do zero ao blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
+- [🔗 Keil MDK e µVision](https://www.keil.com/)
 - [🔗 IAR Embedded Workbench](https://www.iar.com)
 
 #### 🔵 Make / CMake
 
-CMake and Make are both tools for building software applications. CMake is a meta-build system that generates Makefiles, which are then used by Make to build the software. CMake is more versatile and cross-platform than Make, and it is becoming the more popular choice for modern software development.
+CMake e Make são ferramentas para construir aplicativos de software. CMake é um sistema de meta-construção que gera Makefiles, que são então usados ​​pelo Make para construir o software. CMake é mais versátil e multiplataforma do que Make, e está se tornando a escolha mais popular para o desenvolvimento de software moderno.
 
-- [📝 A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines)
-- [🎞️ Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
-- [🔗 CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-- [🎞️ How to CMake Good (YouTube Playlist)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
-- [📝👶 The most thoroughly commented embedded CMakeLists file](https://dnedic.github.io/blog/the-most-thoroughly-commented-embedded-cmakelists/)
+CMake é mais versátil e multiplataforma do que Make, e está se tornando a escolha mais popular para o desenvolvimento de software moderno.
+
+- [📝 Um mergulho superficial no GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines)
+- [🎞️ Construindo projetos STM32 do zero com ferramentas multiplataforma como Make, CMake e cadeia de ferramentas do compilador arm-gcc (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
+- [🔗 Tutorial do CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [🎞️ Como fazer um bom CMake (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+- [📝👶 O arquivo CMakeLists incorporado mais comentado](https://dnedic.github.io/blog/the-most-thoroughly-commented-embedded-cmakelists/)
 
 #### 🔵 Bash Scripting
 
-Bash scripting serves as a powerful tool in embedded systems development, enabling developers to automate repetitive tasks, handle complex configurations, and manage the embedded system's environment effectively. Bash scripting is a Linux-specific tool that is not natively integrated into Windows. However, it can be accessed via the Windows Subsystem for Linux (WSL).
+O Bash scripting serve como uma ferramenta poderosa no desenvolvimento de sistemas embarcados, permitindo que os desenvolvedores automatizem tarefas repetitivas, lidem com configurações complexas e gerenciem o ambiente do sistema embarcado de forma eficaz. O Bash scripting é uma ferramenta específica do Linux que não é nativamente integrada ao Windows. No entanto, ele pode ser acessado por meio do Windows Subsystem for Linux (WSL).
 
 - [🔗 Bash scripting cheatsheet](https://devhints.io/bash)
 - [🎞️ Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
 
 #### 🔵 Docker
 
-Docker containers provide a consistent and isolated environment for building software applications. This can help to improve the reproducibility of builds and reduce the risk of errors. Docker also makes it easier to share build environments, which can save time and effort for developers.
+Os contêineres Docker fornecem um ambiente consistente e isolado para a construção de aplicativos de software. Isso pode ajudar a melhorar a reprodutibilidade das compilações e reduzir o risco de erros. O Docker também facilita o compartilhamento de ambientes de compilação, o que pode economizar tempo e esforço para os desenvolvedores.
 
 - [🔗 Docker Docs](https://docs.docker.com/get-started/)
 - [🔗 Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
-- [📝👶 Docker for Dummies](https://dev.to/stevenmcgown/docker-for-dummies-2bff)
-- [🎞️ Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
-- [🎞️ Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
-- [📝 A Modern C Development Environment](https://interrupt.memfault.com/blog/a-modern-c-dev-env)
+- [📝👶 Docker para Leigos](https://dev.to/stevenmcgown/docker-for-dummies-2bff)
+- [🎞️ Introdução ao Docker para o Desenvolvedor Embedded](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
+- [🎞️ Introdução ao CI/CD Parte 1: Introdução ao Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
+- [📝 Um ambiente de desenvolvimento C moderno](https://interrupt.memfault.com/blog/a-modern-c-dev-env)
 
 _________________
 
-### ✳️ Software Development Life Cycle (SDLC) Models
+### ✳️ Modelos de ciclo de vida de desenvolvimento de software (SDLC)
 
-Software Development Life Cycle (SDLC) models provide a structured approach to software development, guiding the process from planning to deployment and maintenance. These models provide a framework for organizing, managing, and executing software projects, ensuring a consistent and efficient development process.
+Os modelos de ciclo de vida de desenvolvimento de software (SDLC) fornecem uma abordagem estruturada para o desenvolvimento de software, orientando o processo do planejamento à implantação e manutenção. Esses modelos fornecem uma estrutura para organizar, gerenciar e executar projetos de software, garantindo um processo de desenvolvimento consistente e eficiente.
 
-- [📝 What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
-- [📝 Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
+- [📝 O que é o ciclo de vida de desenvolvimento de software?](https://www.coderus.com/the-software-development-lifecycle/)
+- [📝 Ciclo de vida de desenvolvimento de produtos embarcados: quatro etapas principais](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
 
 #### 🔵 Agile / SCRUM
 
-- [📝 Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
-- [📝 Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
-- [📝 What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
-- [📝 An agile guide to scrum meetings](https://www.atlassian.com/agile/scrum/ceremonies)
-- [📝 What is scaled agile framework? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
-- [🔗 Jira - Issue & Project Tracking Software](https://confluence.atlassian.com/jira)
+- [📝 O Agile funciona com software embarcado?](https://www.embedded.com/does-agile-work-with-embedded-software/)
+- [📝 Scrum para software embarcado: bom, mas por razões diferentes do que seu gerente pensa](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
+- [📝 O que é Scrum: um guia para o Agile mais popular Framework](https://www.scrumalliance.org/about-scrum)
+- [📝 Um guia ágil para reuniões scrum](https://www.atlassian.com/agile/scrum/ceremonies)
+- [📝 O que é um framework ágil escalonado? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
+- [🔗 Jira - Software de Rastreamento de Problemas e Projetos](https://confluence.atlassian.com/jira)
 
-#### 🔵 V-Model (V-cycle)
+#### 🔵 Modelo V (ciclo V)
 
-- [📝 What is the V model for software development](https://x-engineer.org/v-model-software-development/)
-- [📝 V Model In Software Engineering: Ultimate Guideline](https://biplus.com.vn/v-model-in-software-engineering/)
+- [📝 O que é o modelo V para desenvolvimento de software](https://x-engineer.org/v-model-software-development/)
+- [📝 Modelo V em Engenharia de Software: Diretriz Definitiva](https://biplus.com.vn/v-model-in-software-engineering/)
 
 _________________
 
-### ✳️ Version Control Systems
+### ✳️ Sistemas de Controle de Versão
 
-Version control systems are essential tools for managing changes to code and other digital assets. They track changes over time, allowing developers to revert to previous versions, collaborate effectively, and identify potential conflicts. Popular version control systems include Git, Mercurial, and Subversion.
+Os sistemas de controle de versão são ferramentas essenciais para gerenciar mudanças no código e outros ativos digitais. Eles rastreiam mudanças ao longo do tempo, permitindo que os desenvolvedores revertam para versões anteriores, colaborem efetivamente e identifiquem potenciais conflitos. Sistemas de controle de versão populares incluem Git, Mercurial e Subversion.
 
 #### 🔵 Git
 
-- [🎞️👶 Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
-- [🎞️ Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+- [🎞️👶 Tutorial Git para iniciantes: aprenda Git em 1 hora](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [🎞️ Tutorial Git para profissionais - Ferramentas e conceitos para dominar o controle de versão com Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
 
 #### 🔵 SVN (Subversion)
 
@@ -1243,215 +1245,215 @@ Version control systems are essential tools for managing changes to code and oth
 
 _________________
 
-### ✳️ Testing
+### ✳️ Testes
 
-Testing is an integral part of the embedded systems development process, ensuring the quality, reliability, and safety of these systems. It involves a range of techniques, from unit testing to system testing, to validate the functionality and performance of the software and hardware components.
+Os testes são parte integrante do processo de desenvolvimento de sistemas embarcados, garantindo a qualidade, confiabilidade e segurança desses sistemas. Envolve uma série de técnicas, desde testes unitários até testes de sistema, para validar a funcionalidade e o desempenho dos componentes de software e hardware.
 
-- [📝 Embedded Testing](https://artoftesting.com/embedded-testing)
-- [📝 What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
-- [📝 Verification vs Validation in Embedded Software](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
+- [📝 Testes embarcados](https://artoftesting.com/embedded-testing)
+- [📝 O que é teste embarcado em testes de software?](https://www.guru99.com/embedded-software-testing.html)
+- [📝 Verificação vs Validação em software embarcado](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
 
-#### 🔵 Test Driven Development (TDD)
+#### 🔵 Desenvolvimento orientado a testes (TDD)
 
-- [📘💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
-- [📝 Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
-- [📝 Firmware Testing with Renode and GitHub Actions](https://interrupt.memfault.com/blog/test-automation-renode)
-- [📝 Balancing Test Coverage vs. Overhead](https://interrupt.memfault.com/blog/testing-vs-overhead)
+- [📘💎 Desenvolvimento orientado a testes para C embarcado - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
+- [📝 Testes: Unidade VS Integração VS Regressão VS Aceitação](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
+- [📝 Teste de firmware com ações Renode e GitHub](https://interrupt.memfault.com/blog/test-automation-renode)
+- [📝 Balanceamento de cobertura de teste vs. sobrecarga](https://interrupt.memfault.com/blog/testing-vs-overhead)
 
-##### 🔶 Unit Testing
+##### 🔶 Teste de unidade
 
-- [📝 Embedded C/C++ Unit Testing Basics](https://interrupt.memfault.com/blog/unit-testing-basics)
-- [📝 Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
-- [🔗 Unit Testing for C (especially Embedded Software)](http://www.throwtheswitch.org/unity)
-- [📘 Unit Testing Principles, Practices, and Patterns - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
-- [🔗 Catch2 - A modern, C++-native, test framework for unit-tests](https://github.com/catchorg/Catch2)
+- [📝 Noções básicas de teste de unidade C/C++ embarcado](https://interrupt.memfault.com/blog/unit-testing-basics)
+- [📝 Teste de unidade C/C++ embarcado com Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
+- [🔗 Testes unitários para C (especialmente software embarcado)](http://www.throwtheswitch.org/unity)
+- [📘 Princípios, práticas e padrões de testes unitários - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
+- [🔗 Catch2 - Um framework de teste moderno, nativo de C++, para testes unitários](https://github.com/catchorg/Catch2)
 - [🔗 pytest-embedded](https://docs.espressif.com/projects/pytest-embedded/en/latest/)
-- [📝 Introduction to testing ESP32 code with Pytest](https://blog.gistre.epita.fr/posts/brice.parent-2023-09-11-introduction_to_testing_esp32_code_with_pytest/)
+- [📝 Introdução aos testes de código ESP32 com Pytest](https://blog.gistre.epita.fr/posts/brice.parent-2023-09-11-introduction_to_testing_esp32_code_with_pytest/)
 
-###### [🔸 GoogleTest - Google Testing and Mocking Framework](https://github.com/google/googletest)
+###### [🔸 GoogleTest - Estrutura de teste e simulação do Google](https://github.com/google/googletest)
 
-- [🔗 GoogleTest User’s Guide](https://google.github.io/googletest/)
-- [🎞️ GoogleTest And GoogleMock (GTest and GMock)](https://www.youtube.com/playlist?list=PLHn7_PzMqzs5JE58kw4nWiFELEkQek5G0)
+- [🔗 Guia do usuário do GoogleTest](https://google.github.io/googletest/)
+- [🎞️ GoogleTest e GoogleMock (GTest e GMock)](https://www.youtube.com/playlist?list=PLHn7_PzMqzs5JE58kw4nWiFELEkQek5G0)
 
-##### 🔶 Integration Testing
+##### 🔶 Teste de integração
 
-- [📝 Hardware CI Arena](https://electricui.com/blog/hardware-testing)
-- [📝 Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
-- [📝 Regression Testing of Embedded Systems](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
+- [📝 Arena de CI de hardware](https://electricui.com/blog/hardware-testing)
+- [📝 Exclave: Teste de hardware em produção em massa, facilitado](https://www.bunniestudios.com/blog/?p=5450)
+- [📝 Teste de regressão de sistemas embarcados](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
 
-#### 🔵 CI/CD Pipelines
+#### 🔵 Pipelines de CI/CD
 
-Continuous Integration (CI) and Continuous Delivery (CD) are software development practices that automate the process of building, testing, and deploying software. CI/CD pipelines are designed to ensure that software changes are deployed quickly and reliably.
+Integração contínua (CI) e entrega contínua (CD) são práticas de desenvolvimento de software que automatizam o processo de construção, teste e implantação de software. Os pipelines de CI/CD são projetados para garantir que as alterações de software sejam implantadas de forma rápida e confiável.
 
-- [🎞️ Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
-- [🎞️ Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
-- [📝 How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
-- [📝 A guide to continuous delivery in embedded development](https://www.embedded.com/a-guide-to-continuous-delivery-in-embedded-development/)
-- [🎞️ Continuous Delivery for Embedded Systems • Mike Long • GOTO 2015](https://www.youtube.com/watch?v=DcFe6cEvnGQ)
-- [📝 Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
-- [📝 What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
-- [🎞️💎 CI/CD Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLy7NrYWoggjzSIlwxeBbcgfAdYoxCIrM2)
+- [🎞️ Introdução ao CI/CD Parte 1: Introdução ao Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
+- [🎞️ Introdução ao CI/CD Parte 2: Introdução ao GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
+- [📝 Como construir um processo de integração e entrega contínua para software embarcado](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
+- [📝 Um guia para entrega contínua em desenvolvimento embarcado](https://www.embedded.com/a-guide-to-continuous-delivery-in-embedded-development/)
+- [🎞️ Entrega contínua para sistemas embarcados • Mike Long • GOTO 2015](https://www.youtube.com/watch?v=DcFe6cEvnGQ)
+- [📝 Integração contínua e entrega contínua para sistemas embarcados (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
+- [📝 O que é DevOps em uma empresa de dispositivos embarcados?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
+- [🎞️💎 Tutoriais de CI/CD (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLy7NrYWoggjzSIlwxeBbcgfAdYoxCIrM2)
 
-#### 🔵 SIL / HIL Testing
+#### 🔵 Testes SIL/HIL
 
-Software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing are two crucial techniques used in embedded systems development to validate the functionality and performance of software before it is deployed on real hardware. These testing methods simulate the real-world environment of the embedded system using software models or hardware emulators.
+Os testes de software no loop (SIL) e hardware no loop (HIL) são duas técnicas cruciais usadas no desenvolvimento de sistemas embarcados para validar a funcionalidade e o desempenho do software antes de ele ser implantado em hardware real. Esses métodos de teste simulam o ambiente do mundo real do sistema embarcado usando modelos de software ou emuladores de hardware.
 
-- [📝 Hardware-in-Loop and Software-in-Loop Testing](https://roboticsknowledgebase.com/wiki/system-design-development/In-Loop-Testing/)
-- [🎞️ Embedded CI/CD with HIL Testing (YouTube Playlist)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
+- [📝 Testes de Hardware-in-Loop e Software-in-Loop](https://roboticsknowledgebase.com/wiki/system-design-development/In-Loop-Testing/)
+- [🎞️ CI/CD embarcado com teste HIL (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
-#### 🔵 Standards & Certifications
+#### 🔵 Padrões e certificações
 
-Embedded systems development is subject to a variety of standards and certifications, which serve as guidelines and benchmarks for ensuring the quality, safety, and reliability of these systems. These standards are often developed and maintained by industry bodies, such as the International Electrotechnical Commission (IEC) and the Society of Automotive Engineers (SAE).
+O desenvolvimento de sistemas embarcados está sujeito a uma variedade de padrões e certificações, que servem como diretrizes e referências para garantir a qualidade, segurança e confiabilidade desses sistemas.Esses padrões são frequentemente desenvolvidos e mantidos por órgãos da indústria, como a International Electrotechnical Commission (IEC) e a Society of Automotive Engineers (SAE).
 
-- [📝 Intro to Embedded Development: Styles and Standards](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
-- [📝 Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
-- [🎞️ Microchip University - An Introduction To The ISA/IEC 62443 Standard](https://mu.microchip.com/an-introduction-to-the-isaiec-62443-standard)
-- [🎞️ Exploring EMC Basics & Standards](https://www.youtube.com/watch?v=duhBkhlH-WY)
+- [📝 Introdução ao desenvolvimento embarcado: estilos e padrões](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
+- [📝 Padrões de segurança e certificações para desenvolvimento de sistemas embarcados](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
+- [🎞️ Microchip University - Uma introdução ao padrão ISA/IEC 62443](https://mu.microchip.com/an-introduction-to-the-isaiec-62443-standard)
+- [🎞️ Explorando os princípios básicos e padrões de EMC](https://www.youtube.com/watch?v=duhBkhlH-WY)
 
-##### 🔶 Functional Safety
+##### 🔶 Segurança funcional
 
-- [🎞️👶 Microchip University - Introduction to Functional Safety](https://mu.microchip.com/introduction-to-functional-safety)
-- [🎞️ Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
-- [📝 A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
-- [📝 A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
-- [📝 Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
-- [📝 DO-178C - Software Considerations in Airborne Systems and Equipment Certification](https://en.wikipedia.org/wiki/DO-178C)
+- [🎞️👶 Microchip University - Introdução à Segurança Funcional](https://mu.microchip.com/introduction-to-functional-safety)
+- [🎞️ Udemy – Segurança Funcional de Acordo com a ISO 26262 - Curso Intensivo](https://www.udemy.com/course/iso-26262-crash-course/)
+- [📝 Um Guia para Padrões de Codificação MISRA C - MISRA C e MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
+- [📝 Um Padrão de Desenvolvimento de Firmware por Jack Ganssle](http://www.ganssle.com/fsm.htm)
+- [📝 Sistemas embarcados críticos para a segurança: Como se preparar para o software desenvolvimento](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
+- [📝 DO-178C - Considerações de software em sistemas e equipamentos aerotransportados Certificação](https://en.wikipedia.org/wiki/DO-178C)
 
 _________________
 
-### ✳️ Embedded Security
+### ✳️ Segurança embarcada
 
-Security in embedded systems is particularly challenging due to resource constraints and the inherent nature of these devices. Embedded systems typically operate on small, low-power microcontrollers with limited memory and processing power. This makes it difficult to implement the same level of security as traditional computing platforms. Additionally, embedded systems often have limited access to updates and patches, making them more vulnerable to known vulnerabilities.
+A segurança em sistemas embarcados é particularmente desafiadora devido às restrições de recursos e à natureza inerente desses dispositivos. Os sistemas embarcados geralmente operam em microcontroladores pequenos e de baixa potência com memória e poder de processamento limitados. Isso dificulta a implementação do mesmo nível de segurança das plataformas de computação tradicionais. Além disso, os sistemas embarcados geralmente têm acesso limitado a atualizações e patches, tornando-os mais vulneráveis ​​a vulnerabilidades conhecidas.
 
-- [📝 Embedded Systems Security and TrustZone](https://embeddedsecurity.io/)
+- [📝 Segurança de sistemas embarcados e TrustZone](https://embeddedsecurity.io/)
 
-#### 🔵 Hardware Hacking
+#### 🔵 Hacking de hardware
 
-Learning hardware hacking helps security professionals understand how embedded systems can be compromised and develop effective defenses against cyberattacks. This knowledge enhances the resilience of embedded devices to attack.
+Aprender sobre hacking de hardware ajuda os profissionais de segurança a entender como os sistemas embarcados podem ser comprometidos e desenvolver defesas eficazes contra ataques cibernéticos. Esse conhecimento aumenta a resiliência dos dispositivos embarcados a ataques.
 
-- [📘💎 Practical Hardware Pentesting -  Jean-Georges Valle](https://a.co/d/dq4SeNH)
-- [🎞️ Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
-- [📘💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
+- [📘💎 Teste prático de penetração de hardware - Jean-Georges Valle](https://a.co/d/dq4SeNH)
+- [🎞️ Tutorial de hacking de hardware (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
+- [📘💎 Manual de hacking de hardware: quebrando a segurança incorporada com ataques de hardware - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
 
-#### 🔵 Cryptography
+#### 🔵 Criptografia
 
-- [🎞️👶 Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
-- [🎞️ Hashing, Hashing Algorithms, and Collisions - Cryptography - Practical TLS](https://youtu.be/HHQ2QP_upGM)
-- [🎞️ Data Integrity - How Hashing is used to ensure data isn't modified - HMAC - Cryptography](https://www.youtube.com/watch?v=doN3lzzNEIM)
-- [🎞️ Encryption - Symmetric Encryption vs Asymmetric Encryption - Cryptography - Practical TLS](https://www.youtube.com/watch?v=o_g-M7UBqI8)
-- [🎞️ Public and Private Keys - Signatures & Key Exchanges - Cryptography - Practical TLS](https://youtu.be/_zyKvPvh808)
-- [🎞️ Understanding AES Encryption Mechanics: BMPS](https://youtu.be/OnhtzFJW_4I)
-- [📘💎 Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
-- [📘💎 Handbook of Applied Cryptography -  Alfred J. Menezes, Paul C. van Oorschot, Scott A. Vanstone](https://cacr.uwaterloo.ca/hac/)
-- [📘 Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
-- [🎞️ MOOC - Security Part2: Basics of cryptography (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
-- [🎞️ MOOC - Security Part3 : STM32 security features (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnFzux3PHKUEi14ftDn9Cbm7)  
-- [📝 Introduction to encryption for embedded Linux developers](https://sergioprado.blog/introduction-to-encryption-for-embedded-linux-developers/)
-- [📝 A hands-on approach to symmetric-key encryption](https://sergioprado.blog/a-hands-on-approach-to-symmetric-key-encryption/)
-- [📝 Asymmetric-Key Encryption and Digital Signatures in Practice](https://sergioprado.blog/asymmetric-key-encryption-and-digital-signatures-in-practice/)
+- [🎞️👶 Microchip University - Introdução à criptografia](https://mu.microchip.com/cryptography-primer)
+- [🎞️ Hashing, algoritmos de hash e Colisões - Criptografia - TLS prático](https://youtu.be/HHQ2QP_upGM)
+- [🎞️ Integridade de dados - Como o hash é usado para garantir que os dados não sejam modificados - HMAC - Criptografia](https://www.youtube.com/watch?v=doN3lzzNEIM)
+- [🎞️ Criptografia - Criptografia simétrica vs. criptografia assimétrica - Criptografia - TLS prático](https://www.youtube.com/watch?v=o_g-M7UBqI8)
+- [🎞️ Chaves públicas e privadas - Assinaturas e trocas de chaves - Criptografia - TLS prático](https://youtu.be/_zyKvPvh808)
+- [🎞️ Compreendendo a mecânica de criptografia AES: BMPS](https://youtu.be/OnhtzFJW_4I)
+- [📘💎 Compreendendo a Criptografia: Um livro didático para estudantes e profissionais - Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
+- [📘💎 Manual de Criptografia Aplicada - Alfred J. Menezes, Paul C. van Oorschot, Scott A. Vanstone](https://cacr.uwaterloo.ca/hac/)
+- [📘 Criptografia Séria: Uma Introdução Prática à Criptografia Moderna - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
+- [🎞️ MOOC - Segurança Parte 2: Noções básicas de criptografia (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
+- [🎞️ MOOC - Segurança Parte 3: Recursos de segurança do STM32 (Playlist do YouTube)](https://youtube.com/playlist?list=PLnMKNibPkDnFzux3PHKUEi14ftDn9Cbm7)
+- [📝 Introdução à criptografia para desenvolvedores de Linux embarcado](https://sergioprado.blog/introdução-à-criptografia-para-desenvolvedores-de-linux-embarcado/)
+- [📝 Uma abordagem prática à criptografia de chave simétrica](https://sergioprado.blog/uma-abordagem-prática-à-criptografia-de-chave-simétrica/)
+- [📝 Criptografia de chave assimétrica e assinaturas digitais em Prática](https://sergioprado.blog/asymmetric-key-encryption-and-digital-signatures-in-practice/)
 
-#### 🔵 Secure Boot & Secure Firmware Update
+#### 🔵 Inicialização Segura e Atualização Segura de Firmware
 
-- [📝 AVR231: AES Bootloader](https://www.microchip.com/en-us/application-notes/an2462)
-- [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
-- [🎞️ MOOC - Security Part4 : STM32 security in practice (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
-- [🎞️ MOOC - Security Part5 : How to define your security needs (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
-- [🎞️ MOOC - Security Part6: STM32 security ecosystem, from theory to practice (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
+- [📝 AVR231: Bootloader AES](https://www.microchip.com/en-us/application-notes/an2462)
+- [🎞️ Blinky To Bootloader: Série de Programação Bare Metal (Playlist do YouTube)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
+- [🎞️ MOOC - Segurança Parte 4: Segurança STM32 na prática (Playlist do YouTube)](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
+- [🎞️ MOOC - Segurança Parte 5: Como definir suas necessidades de segurança (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
+- [🎞️ MOOC - Segurança Parte 6: Ecossistema de segurança STM32, da teoria à prática (lista de reprodução do YouTube)](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
 - [🎞️ TPM (Trusted Platform Module) - Computerphile](https://www.youtube.com/watch?v=RW2zHvVO09g)
-- [🎞️ Securing Embedded Linux Systems with TPM 2.0 - Philip Tricca, Intel](https://www.youtube.com/watch?v=0qu9R7Tlw9o)
-- [📝 TPM: Basic applications to embedded devices](https://witekio.com/blog/tpm-basic-applications-to-embedded-devices/)
-- [📝 OTA for Embedded Linux Devices: A practical introduction](https://interrupt.memfault.com/blog/ota-for-embedded-linux-devices)
-- [📝 Introduction to Embedded Linux Security - part 1](https://sergioprado.blog/introduction-embedded-linux-security-part-1/)
-- [📝 Introduction to Embedded Linux Security - part 2](https://sergioprado.blog/introduction-embedded-linux-security-part-2/)
+- [🎞️ Protegendo sistemas Linux embarcados com TPM 2.0 - Philip Tricca, Intel](https://www.youtube.com/watch?v=0qu9R7Tlw9o)
+- [📝 TPM: aplicativos básicos para dispositivos embarcados](https://witekio.com/blog/tpm-basic-applications-to-embedded-devices/)
+- [📝 OTA para dispositivos Linux embarcados: uma introdução prática](https://interrupt.memfault.com/blog/ota-for-embedded-linux-devices)
+- [📝 Introdução à segurança do Linux embarcado - parte 1](https://sergioprado.blog/introduction-embedded-linux-security-part-1/)
+- [📝 Introdução para Embedded Linux Security - parte 2](https://sergioprado.blog/introduction-embedded-linux-security-part-2/)
 
 _________________
 
-### ✳️ Embedded GUI
+### ✳️ GUI embarcada
 
-Graphical User Interfaces (GUIs) have become an indispensable part of modern embedded systems, offering a user-friendly and intuitive way to interact with devices. Designing effective GUIs for embedded systems requires careful consideration of factors such as resource constraints, user experience, and real-time performance.
+As interfaces gráficas de usuário (GUIs) se tornaram uma parte indispensável dos sistemas embarcados modernos, oferecendo uma maneira amigável e intuitiva de interagir com os dispositivos. Projetar GUIs eficazes para sistemas embarcados requer consideração cuidadosa de fatores como restrições de recursos, experiência do usuário e desempenho em tempo real.
 
-- [🔗 U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
+- [🔗 Biblioteca U8glib para displays monocromáticos, versão 2](https://github.com/olikraus/u8g2)
 - [🔗 LVGL](https://lvgl.io/)
 - [🔗 TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
-- [🎞️ Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc)
+- [🎞️ Introdução ao Qt / QML (lista de reprodução do YouTube)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc)
 
 _________________
 
-### ✳️ IoT (Internet of Things)
+### ✳️ IoT (Internet das Coisas)
 
-The Internet of Things (IoT) refers to a network of interconnected devices, which gather and exchange data with other devices or with the cloud. Embedded systems are typically the "brains" of IoT devices, managing data collection, processing, and communication tasks. Embedded systems are designed to operate with limited power and resources, making them well-suited for IoT applications.
+A Internet das Coisas (IoT) se refere a uma rede de dispositivos interconectados, que reúnem e trocam dados com outros dispositivos ou com a nuvem. Os sistemas embarcados são tipicamente os "cérebros" dos dispositivos IoT, gerenciando tarefas de coleta, processamento e comunicação de dados. Os sistemas embarcados são projetados para operar com energia e recursos limitados, tornando-os adequados para aplicações IoT.
 
-- [🎞️👶💎 Microchip University - Design Considerations For Your First IoT Project](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
+- [🎞️👶💎 Microchip University - Considerações de design para seu primeiro projeto de IoT](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
 
-#### 🔵 Delta Over-The-Air Firmware Update
+#### 🔵 Atualização de firmware Delta Over-The-Air
 
-- [📝 Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
-- [📝 Delta Over-The-Air Device Firmware Update](https://thinkty.net/projects/2023/05/07/delta_ota.html)
-- [📝 FreeRTOS Delta Over-the-Air Updates](https://www.freertos.org/2022/01/delta-over-the-air-updates.html)
+- [📝 Economizando largura de banda com atualizações de firmware delta](https://interrupt.memfault.com/blog/ota-delta-updates)
+- [📝 Atualização de firmware do dispositivo Delta Over-The-Air](https://thinkty.net/projects/2023/05/07/delta_ota.html)
+- [📝 Atualizações Delta Over-the-Air do FreeRTOS](https://www.freertos.org/2022/01/delta-over-the-air-updates.html)
 - [🔗 ESP Delta OTA](https://components.espressif.com/components/espressif/esp_delta_ota)
 
 ### ✳️ Edge AI
 
-Edge AI refers to the ability of devices to perform machine learning tasks on their own, without the need to send data to a central server. This can be done by using small, specialized AI models that are embedded directly into the device. TinyML is a subset of Edge AI that focuses on developing these models for devices with very limited computing power, such as microcontrollers and sensors.
+Edge AI se refere à capacidade dos dispositivos de executar tarefas de aprendizado de máquina por conta própria, sem a necessidade de enviar dados para um servidor central. Isso pode ser feito usando modelos de IA pequenos e especializados que são incorporados diretamente no dispositivo. TinyML é um subconjunto do Edge AI que se concentra no desenvolvimento desses modelos para dispositivos com poder de computação muito limitado, como microcontroladores e sensores.
 
-- [🎞️ Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
+- [🎞️ Introdução ao Edge AI: Machine Learning + IoT – Tutorial do Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
 
-#### 🔵 AI & ML Basics
+#### 🔵 Noções básicas de IA e ML
 
-- [📝 A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
-- [📝👶 Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
-- [📝 Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
+- [📝 Um guia para iniciantes em inteligência artificial e aprendizado de máquina](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
+- [📝👶 Introdução ao aprendizado de máquina para codificadores!](https://course18.fast.ai/ml)
+- [📝 Curso intensivo de aprendizado de máquina com APIs do TensorFlow - Google](https://developers.google.com/machine-learning/crash-course/)
 
 #### 🔵 TensorFlow Lite
 
-- [🎞️ Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
-- [🎞️ Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
-- [🎞️ Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
+- [🎞️ Introdução ao TensorFlow e Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
+- [🎞️ Introdução ao TensorFlow Lite Parte 1: Extração de recursos de palavra de ativação – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
+- [🎞️ Introdução ao TensorFlow Lite Parte 2: Treinamento do modelo de reconhecimento de fala – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
 
 #### 🔵 TinyML
 
-- [🎞️👶 Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
-- [🎞️👶 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
-- [🎞️ Coursera - Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
-- [🎞️ TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
-- [🎞️ TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics](https://youtu.be/crJcDqIUbP4)
-- [🎞️ edX - Fundamentals of TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
-- [🎞️ edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
-- [🎞️ edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
-- [🎞️ edX - MLOps for Scaling TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
-- [📘 TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers - Pete Warden, Daniel Situnayake](https://tinymlbook.com/)
+- [🎞️👶 Introdução ao TinyML Parte 1: Treinamento de uma rede neural para Arduino no TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
+- [🎞️👶 Introdução ao TinyML Parte 2: Implantando um modelo TensorFlow Lite no Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
+- [🎞️ Coursera - Introdução ao aprendizado de máquina embarcado](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
+- [🎞️ TinyML: Introdução ao TensorFlow Lite para microcontroladores | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
+- [🎞️ TinyML: Introdução ao STM32 X-CUBE-AI | Eletrônica Digi-Key](https://youtu.be/crJcDqIUbP4)
+- [🎞️ edX - Fundamentos do TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
+- [🎞️ edX - Aplicações do TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
+- [🎞️ edX - Implantando o TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
+- [🎞️ edX - MLOps para dimensionar o TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
+- [📘 TinyML: Aprendizado de máquina com TensorFlow Lite no Arduino e Microcontroladores de ultrabaixo consumo de energia - Pete Warden, Daniel Situnayake](https://tinymlbook.com/)
 
 _________________
 
-### ✳️ AUTOSAR Architecture
+### ✳️ Arquitetura AUTOSAR
 
-AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard for automotive software development. It is a software architecture that provides a standardized platform for developing and integrating software components in vehicle electronic control units (ECUs). This allows different ECUs from different manufacturers to communicate and work together seamlessly.
+AUTOSAR, ou AUTomotive Open System ARchitecture, é um padrão global da indústria para desenvolvimento de software automotivo. É uma arquitetura de software que fornece uma plataforma padronizada para desenvolver e integrar componentes de software em unidades de controle eletrônico (ECUs) de veículos. Isso permite que diferentes ECUs de diferentes fabricantes se comuniquem e trabalhem juntas perfeitamente.
 
-- [🔗 AUTOSAR Standards](https://www.autosar.org/standards)
-- [🎞️ AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
-- [🎞️ Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
-- [🎞️ Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
+- [🔗 Padrões AUTOSAR](https://www.autosar.org/standards)
+- [🎞️ Noções básicas do AUTOSAR | Tutorial do AUTOSAR | Arquitetura | Automotivo](https://www.youtube.com/watch?v=7b5BY1IAfwY)
+- [🎞️ Introdução ao AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
+- [🎞️ Udemy - Arquitetura Autosar (Aprenda do Zero com Demonstração)](https://www.udemy.com/course/autosar-architecture/)
 
-## History
+## História
 
-At first this was meant to be my personal reading list but as the list gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on a roadmap. In order to make the roadmap more comprehensive I also added some basic skills and finally came up with what you see here.
+No começo, essa era para ser minha lista de leitura pessoal, mas conforme a lista foi ficando cada vez maior, pensei por que não compartilhá-la com outras pessoas. Então, pesquisei sobre as vagas de emprego atuais para funções de engenharia embarcada, selecionando as habilidades mais frequentes e incluindo-as em um roteiro. Para tornar o roteiro mais abrangente, também adicionei algumas habilidades básicas e finalmente cheguei ao que você vê aqui.
 
-The idea of creating this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) which was well designed but had some flaws and not updated for years. I took that idea, changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which is not suitable for these types of diagrams. So I decided to use Microsoft Visio instead and redrew the whole diagram.
+A ideia de criar este roteiro veio de [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) que foi bem projetado, mas tinha algumas falhas e não foi atualizado por anos. Peguei essa ideia, mudei a estrutura do roteiro e tentei melhorá-lo. Os resultados iniciais podem ser acessados ​​em [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) que agora está arquivado. As primeiras versões do roteiro foram criadas usando [Balsamiq Wireframes](https://balsamiq.com) que não é adequado para esses tipos de diagramas. Então, decidi usar o Microsoft Visio e redesenhei todo o diagrama.
 
-## Copyright
+## Direitos autorais
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) which means that you are free to **share** or **adapt** this work under the following terms:
+Este trabalho é licenciado sob uma [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) o que significa que você é livre para **compartilhar** ou **adaptar** este trabalho sob os seguintes termos:
 
-**Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+**Atribuição** — Você deve dar o crédito apropriado, fornecer um link para a licença e indicar se alterações foram feitas. Você pode fazer isso de qualquer maneira razoável, mas não de nenhuma forma que sugira que o licenciante endossa você ou seu uso.
 
-**ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+**ShareAlike** — Se você remixar, transformar ou criar a partir do material, você deve distribuir suas contribuições sob a mesma licença do original.
 
-## Acknowledgement
+## Agradecimento
 
-Special thanks to my friends in the community of Iranian Embedded Engineers in Twitter and [r/embedded](https://www.reddit.com/r/embedded) subreddit for their suggestions that helped in improving this roadmap.
+Agradecimentos especiais aos meus amigos na comunidade de Iranian Embedded Engineers no Twitter e no subreddit [r/embedded](https://www.reddit.com/r/embedded) por suas sugestões que ajudaram a melhorar este roteiro.
 
-## Contribution
+## Contribuição
 
-If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
+Se você acha que este roteiro pode ser melhorado de alguma forma ou conhece alguns bons recursos de aprendizagem que podem ser adicionados aqui, por favor, abra um problema ou uma solicitação de pull. Eu manterei e atualizarei este repositório frequentemente.
 
-The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
+O arquivo de origem é criado usando [Microsoft Visio](https://office.com/visio) no formato `.vsdx` e incluído neste repositório para suas contribuições. Se você não tem o Microsoft Visio ou deseja usar software livre, você pode usar [draw.io](https://draw.io) que pode importar e exportar arquivos `.vsdx`.
